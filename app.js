@@ -1369,5 +1369,5 @@
   ['#pricing','#closing','#features','#templates','.hero-store-shell'].forEach(s=>{const el=$(s);if(el)convObs.observe(el)});
   $('#stickyClose')?.addEventListener('click',()=>{dismissed=true;sessionStorage.setItem('ezcomo-v4-sticky','1');refreshSticky()});
 
-  applyLanguage('en'); selectTemplate('threads'); selectDirection('fashion'); renderFaq(); resetWorkflow();
+  applyLanguage('en'); selectTemplate('threads'); selectDirection('fashion'); renderFaq();
 })();
