@@ -967,19 +967,19 @@
     const heroLayer=$('[data-editable="heroTitle"]',editor);
     const heroTitle=$('.editable-title',heroLayer);
     heroLayer?.classList.add('guided-editor-focus');
-    await journeyWait(1600,token);
+    await journeyWait(1800,token);
     if(heroTitle){
       heroTitle.textContent=lang==='bn'?'প্রতিদিনের স্টাইল, এবার একেবারে আপনার।':'Everyday style, unmistakably yours.';
       const input=$('#editorTextInput');if(input)input.value=heroTitle.textContent;
     }
     setEditorHint('builderHintUpdated');
-    await journeyWait(2100,token);
+    await journeyWait(2400,token);
 
     const forestSwatch=$('.editor-swatches button[data-color="#33483d"]',editor);
     forestSwatch?.classList.add('guided-swatch-focus');
     const heroBlock=$('#heroBlock');
     if(heroBlock){heroBlock.style.background='#33483d';heroBlock.style.color='#f3f8f5';}
-    await journeyWait(2100,token);
+    await journeyWait(2400,token);
     forestSwatch?.classList.remove('guided-swatch-focus');
 
     const palette=$('.editor-palette',editor),canvas=$('#editorCanvas');
@@ -991,12 +991,12 @@
     if(products&&categories)categories.before(products);
     $$('.editor-block-btn',palette).forEach((btn,i)=>{const n=$('b',btn);if(n)n.textContent=String(i+1).padStart(2,'0')});
     setEditorHint('builderHintReordered');
-    await journeyWait(2100,token);
+    await journeyWait(2400,token);
     productsBtn?.classList.remove('guided-reorder-focus');
 
     const tee=$('.editor-product-card .flat-tee',editor);
     tee?.closest('.editor-product-card')?.classList.add('guided-product-focus');
-    await journeyWait(1900,token);
+    await journeyWait(2300,token);
     tee?.closest('.editor-product-card')?.classList.remove('guided-product-focus');
     heroLayer?.classList.remove('guided-editor-focus');
     editor.classList.remove('guided-editor-running');
@@ -1142,7 +1142,7 @@
     const reduced=reduceJourneyMotion();
     const timing=reduced
       ?{start:0,hold:40,gap:10,finish:60}
-      :guided?{start:1000,hold:2200,gap:350,finish:900}:{start:1200,hold:3400,gap:650,finish:900};
+      :guided?{start:1200,hold:2600,gap:350,finish:900}:{start:1200,hold:3400,gap:650,finish:900};
     try{
       await workflowDelay(timing.start,{guided,journeyToken,runToken});
       for(const name of workflowSteps){
@@ -1191,25 +1191,25 @@
   const runGuidedWorkspace=async token=>{
     ensureOrderReady();
     workspaceOrderRow?.classList.add('handoff-arrived');
-    await journeyWait(1500,token);
+    await journeyWait(1800,token);
     openWorkspaceOrder();
     $('#workspacePaymentMetric')?.classList.add('journey-emphasis');
     $('#workspaceStockMetric')?.classList.add('journey-emphasis');
-    await journeyWait(2100,token);
+    await journeyWait(2400,token);
     $('#workspacePaymentMetric')?.classList.remove('journey-emphasis');
     $('#workspaceStockMetric')?.classList.remove('journey-emphasis');
     workspacePrepareDelivery?.classList.add('journey-action-focus');
-    await journeyWait(1400,token);
+    await journeyWait(1600,token);
     prepareSampleDelivery();
     workspacePrepareDelivery?.classList.remove('journey-action-focus');
-    await journeyWait(2500,token);
+    await journeyWait(3200,token);
     announceJourney(i18n[lang]?.journeyFinal||'Your storefront, order and next action stay connected.');
   };
 
   const playGuidedJourney=async token=>{
     try{
       setChapter('build');
-      await journeyWait(1500,token);
+      await journeyWait(2000,token);
       await runGuidedEditor(token);
 
       const sourceProduct=$('.editor-product-card .flat-tee',editor||document);
@@ -1219,7 +1219,7 @@
       });
       await journeyWait(1700,token);
       await runWorkflow({guided:true,journeyToken:token});
-      await journeyWait(2600,token);
+      await journeyWait(3300,token);
 
       const sourceOrder=$('#workflowResult');
       await animateSceneProxy({
