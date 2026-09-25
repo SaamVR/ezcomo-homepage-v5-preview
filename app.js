@@ -155,25 +155,6 @@
     priceAdvancedNote:'For growing teams running campaigns and richer storefront operations.',advancedFeature1:'Up to 3 storefronts',advancedFeature2:'Campaigns, teams, coupons + reviews',advancedFeature3:'14-day trial configured',chooseAdvanced:'Choose Advanced',
     pricingFineprint:'Plan availability is checked at signup. Custom domains are available only on eligible paid plans and still require DNS setup and verification.',comparePlans:'Compare full plan details',
     footerIdentity:'Bangladesh-first commerce platform · Platform support available from the support page.'
-  ,
-    announcement:'Built for businesses in Bangladesh.',announcementCta:'See local payment and delivery options →',
-    heroLede:'Create a storefront customers can shop, then manage products, orders, payments, stock and delivery from one workspace.',seeStores:'See how it works',heroSupport:'Keep your social channels for discovery. Give every interested customer a clear place to shop.',heroReassure1:'Start from a template',heroReassure2:'Edit without code',heroReassure3:'Local commerce options',heroWorkspaceLabel:'SAMPLE VIEW',heroWorkspaceLive:'Connected merchant outcome',heroSampleOrder:'Sample order',heroPaid:'Paid',heroReadyPrepare:'Ready to prepare',
-    proofLabel:'ONE CONNECTED BUSINESS',proofIntro:'The storefront and the work behind every sale.',proofStoreNote:'Your brand, ready to browse',proofProducts:'Products',proofProductsNote:'Catalog, prices and variants',proofOrder:'Orders',proofOrderNote:'Details in one place',proofPayments:'Payments',proofPaymentsNote:'Know what is paid or pending',proofStock:'Inventory',proofStockNote:'Keep stock visible',proofDelivery:'Delivery',proofDeliveryNote:'See the next action',
-    featuresKicker:'See EZComo in action',featuresTitle:'One sale. Every step connected.',featuresCopy:'From your storefront to the next delivery — follow one sample order through EZComo.',workflowWatch:'Watch 30-second walkthrough',workflowPause:'Pause',workflowResume:'Resume',workflowExplore:'Try it yourself',workflowExploreReduced:'Explore the three steps',
-    wfChapter1:'Customize store',wfChapter1Copy:'Make it feel like your brand',wfChapter2:'Customer orders',wfChapter2Copy:'See the same sale arrive',wfChapter3:'Manage delivery',wfChapter3Copy:'Know what happens next',wfStorefrontDemo:'STOREFRONT DEMO',wfOrderDemo:'ORDER DEMO',wfDeliveryDemo:'DELIVERY DEMO',wfSampleData:'Sample data',
-    wfCustomizeKicker:'CUSTOMIZE',wfCustomizeTitle:'Make the store yours',wfHeadlineLabel:'Storefront headline',wfColorLabel:'Brand color',wfForest:'Forest',wfTerracotta:'Terracotta',wfMoss:'Moss',wfCustomizeHelp:'Change the headline or color. The storefront preview updates immediately.',wfShopCollection:'Shop collection →',
-    wfCheckoutKicker:'SAMPLE CHECKOUT',wfCheckoutTitle:'Your customer checks out',wfPaymentMethod:'Payment method',wfSamplePayment:'sample payment',wfPlaceOrder:'Place sample order',wfOrderPlaced:'Sample order placed',wfNoPayment:'Nothing here takes a real payment.',wfNoPaymentDone:'Sample order placed. No payment was taken.',wfOrderPreviewKicker:'ORDER PREVIEW',wfOrderPreviewTitle:'Order preview',wfOrderReceived:'Order #1051 received',wfWaiting:'Waiting',wfPaid:'Paid',wfPaymentRow:'Payment',wfStockRow:'Stock',wfNextActionRow:'Next action',wfPlaceOrderFirst:'Place sample order',wfPrepareDeliveryNext:'Prepare delivery',wfCodSummary:'What about cash on delivery?',wfCodCopy:'This example uses a paid bKash order. Cash-on-delivery payments remain unpaid until collection or settlement is recorded.',
-    wfDeliveryOrderKicker:'ORDER #1051',wfDeliveryOrderTitle:'Your order is ready to move',wfDeliveryKicker:'DELIVERY DEMO',wfDeliveryTitle:'Prepare the next step',wfDeliveryHelp:'This illustrates booking with a connected Pathao merchant account.',wfCourier:'Courier',wfPrepareDelivery:'Prepare sample delivery',wfDeliveryPrepared:'Delivery prepared',wfReadyPrepare:'Ready to prepare',wfAwaitPickup:'Await courier pickup',wfBookingSimulated:'Booking is simulated. Pickup has not happened.',wfPrefillNote:'A sample order is prefilled so you can explore delivery.',
-    wfCaption1:'Change your headline and brand color. The storefront updates as you edit.',wfCaption2:'The order is ready. Payment and stock are updated.',wfCaption2Before:'Place the sample order to see payment and stock update.',wfCaption3:'Delivery is prepared. The next action is to await courier pickup.',wfCaption3Before:'Prepare the sample delivery to see the next courier state.',wfReplay:'Replay',wfBack:'Back',wfNextOrders:'Next: customer orders',wfNextDelivery:'Next: manage delivery',wfChooseStorefront:'Choose your storefront',wfSafeNote:'Explore any step. Nothing here creates a real order or changes your store.',wfExploreEditor:'Explore full editor',
-    builderLabel:'FULL STOREFRONT EDITOR',builderTitle:'Explore the full storefront editor.',builderCopy:'Edit text, color, alignment and section order using the same interactive editor.',builderHint:'Keyboard reorder remains available with Alt + ↑ / ↓.',
-    templatesKicker:'Made for the way you sell',templatesTitle:'Choose a storefront that fits your business.',templatesCopy:'Explore different ways to present products, services and stays. Choose a starting point, then make it your own.',examplesKicker:'EXAMPLE STORES · SAMPLE BUSINESSES',examplesTitle:'See the finished customer experience.',
-    localTitle:'Familiar payments. A clearer delivery workflow.',localCopy:'Offer the options your customers recognize, and keep setup requirements clear before you start taking orders.',autoConnected:'Automated checkout when your merchant account is connected.',storeOption:'A familiar checkout option for your customers.',codOption:'Let customers pay on delivery.',merchantApi:'Prepare courier bookings from the order workflow.',
-    onboardKicker:'FROM SIGNUP TO STOREFRONT',onboardTitle:'A clear path to launch.',onboard1:'Create your account',onboard1Copy:'Start with a storefront direction.',onboard2:'Add your products and brand',onboard2Copy:'Bring in your content, prices and images.',onboard3:'Set up payment and delivery',onboard3Copy:'Connect the options your business needs.',onboard4:'Publish your storefront',onboard4Copy:'Review the customer experience, then share your link.',
-    pricingTitle:'Start free. Add the tools your business needs.',pricingCopy:'Choose a plan for the way you sell today. Review what is included before you upgrade.',basicFeature3:'14-day trial',advancedFeature3:'14-day trial',pricingFineprint:'Payment, courier, messaging and domain-provider charges may apply separately. Custom domains require an eligible plan and DNS verification.',
-    faqTitle:'Before you start.',faqQ1:'Can I start without coding?',faqA1:'You can start from a template and edit your storefront visually. Payment, delivery and domain connections may require additional setup.',faqQ2:'Can I use EZComo alongside Facebook or Instagram?',faqA2:'Yes. Share your storefront link from your social channels so customers can browse products and place orders in one place.',faqQ3:'Which payment options can I offer?',faqA3:'EZComo supports local checkout options including bKash, Nagad and cash on delivery. Automated payment confirmation depends on the method and your account setup.',faqQ4:'Can I book a courier from an order?',faqA4:'The supported Pathao workflow can prepare bookings when your merchant connection is configured. Check the requirements for your chosen courier before relying on automation.',faqQ5:'Can I use my own domain?',faqA5:'Eligible plans support a custom domain after DNS setup and verification.',faqQ6:'What happens after I choose a template?',faqA6:'Your selected starting point is carried into signup. You can then add your brand and content using the tools included in your plan.',faqQ7:'Are the stores and orders on this page real?',faqA7:'The examples use sample businesses and sample data. The homepage walkthrough does not take payments, place real orders or book a courier.',faqQ8:'How do I get help?',faqA8:'Visit EZComo support for the current contact options and setup help.',
-    closingTitle:'Give your customers a place to shop. Give yourself a clearer way to run it.',closingCopy:'Choose a starting point, make it yours and keep the work behind each sale together.',browseAgain:'Explore storefront examples'
-  ,
-    wfResetAll:'Reset all demo changes'
   });
   Object.assign(i18n.bn,{
     proofLabel:'এক ব্যবসা, এক ধারায়',proofIntro:'ক্রেতার স্টোর আর বিক্রির পরের কাজ একই ধারায় থাকুক।',proofStoreNote:'ক্রেতা পণ্য দেখে',proofProducts:'পণ্য',proofProductsNote:'ক্যাটালগ ও স্টক',proofOrder:'অর্ডার',proofOrderNote:'সব তথ্য গুছানো',proofPayments:'পেমেন্ট',proofPaymentsNote:'পেইড বা COD',proofStock:'স্টক',proofStockNote:'স্টক চোখের সামনে',proofDelivery:'ডেলিভারি',proofDeliveryNote:'পরের কাজ প্রস্তুত',
@@ -192,25 +173,31 @@
     priceAdvancedNote:'Growing team, campaign আর richer storefront operation-এর জন্য।',advancedFeature1:'সর্বোচ্চ ৩টি storefront',advancedFeature2:'Campaign, team, coupon + review',advancedFeature3:'১৪ দিনের trial configured',chooseAdvanced:'Advanced বেছে নিন',
     pricingFineprint:'Signup-এর সময় plan availability যাচাই হয়। Custom domain শুধু যোগ্য paid plan-এ পাওয়া যায় এবং DNS setup ও verification লাগবে।',comparePlans:'সব plan details দেখুন',
     footerIdentity:'বাংলাদেশকেন্দ্রিক commerce platform · Support page থেকে platform support পাওয়া যাবে।'
-  ,
-    announcement:'বাংলাদেশের ব্যবসার জন্য তৈরি।',announcementCta:'লোকাল পেমেন্ট ও ডেলিভারি অপশন দেখুন →',
-    heroLede:'ক্রেতার জন্য একটি কেনাকাটার storefront তৈরি করুন, তারপর product, order, payment, stock ও delivery একই workspace থেকে সামলান।',seeStores:'কীভাবে কাজ করে দেখুন',heroSupport:'Social channel-এ মানুষ আপনার ব্যবসা খুঁজে পাক। কেনাকাটার জন্য দিন পরিষ্কার একটি নিজস্ব storefront.',heroReassure1:'Template দিয়ে শুরু',heroReassure2:'কোড ছাড়াই edit',heroReassure3:'লোকাল commerce option',heroWorkspaceLabel:'নমুনা ভিউ',heroWorkspaceLive:'যুক্ত merchant outcome',heroSampleOrder:'নমুনা অর্ডার',heroPaid:'পেইড',heroReadyPrepare:'প্রস্তুতির জন্য ready',
-    proofLabel:'এক ব্যবসা, একসাথে',proofIntro:'Storefront আর প্রতিটি বিক্রির পেছনের কাজ একই জায়গায়।',proofStoreNote:'আপনার ব্র্যান্ড, সহজে browse',proofProducts:'পণ্য',proofProductsNote:'ক্যাটালগ, দাম ও variant',proofOrder:'অর্ডার',proofOrderNote:'সব detail এক জায়গায়',proofPayments:'পেমেন্ট',proofPaymentsNote:'পেইড নাকি pending বুঝুন',proofStock:'স্টক',proofStockNote:'স্টক চোখের সামনে রাখুন',proofDelivery:'ডেলিভারি',proofDeliveryNote:'পরের কাজ দেখুন',
-    featuresKicker:'EZComo কাজে দেখে নিন',featuresTitle:'একটি বিক্রি। প্রতিটি ধাপ যুক্ত।',featuresCopy:'Storefront থেকে delivery-র পরের কাজ পর্যন্ত—একই sample order EZComo-তে কীভাবে এগোয় দেখুন।',workflowWatch:'৩০ সেকেন্ডের walkthrough দেখুন',workflowPause:'Pause',workflowResume:'আবার চালান',workflowExplore:'নিজে ব্যবহার করে দেখুন',workflowExploreReduced:'তিনটি ধাপ নিজে দেখুন',
-    wfChapter1:'Store customize করুন',wfChapter1Copy:'নিজের ব্র্যান্ডের মতো সাজান',wfChapter2:'ক্রেতার অর্ডার',wfChapter2Copy:'একই বিক্রি এসে পৌঁছাতে দেখুন',wfChapter3:'Delivery সামলান',wfChapter3Copy:'এরপর কী করতে হবে বুঝুন',wfStorefrontDemo:'STOREFRONT DEMO',wfOrderDemo:'ORDER DEMO',wfDeliveryDemo:'DELIVERY DEMO',wfSampleData:'নমুনা ডেটা',
-    wfCustomizeKicker:'CUSTOMIZE',wfCustomizeTitle:'Store-টা নিজের মতো করুন',wfHeadlineLabel:'Storefront headline',wfColorLabel:'Brand color',wfForest:'Forest',wfTerracotta:'Terracotta',wfMoss:'Moss',wfCustomizeHelp:'Headline বা color বদলান। Storefront preview সঙ্গে সঙ্গে বদলাবে।',wfShopCollection:'Collection দেখুন →',
-    wfCheckoutKicker:'SAMPLE CHECKOUT',wfCheckoutTitle:'ক্রেতা checkout করছে',wfPaymentMethod:'Payment method',wfSamplePayment:'নমুনা payment',wfPlaceOrder:'নমুনা অর্ডার দিন',wfOrderPlaced:'নমুনা অর্ডার তৈরি হয়েছে',wfNoPayment:'এখানে কোনো আসল payment নেওয়া হয় না।',wfNoPaymentDone:'নমুনা অর্ডার তৈরি হয়েছে। কোনো আসল payment নেওয়া হয়নি।',wfOrderPreviewKicker:'ORDER PREVIEW',wfOrderPreviewTitle:'Order preview',wfOrderReceived:'#1051 অর্ডার এসেছে',wfWaiting:'অপেক্ষায়',wfPaid:'পেইড',wfPaymentRow:'পেমেন্ট',wfStockRow:'স্টক',wfNextActionRow:'পরের কাজ',wfPlaceOrderFirst:'আগে নমুনা অর্ডার দিন',wfPrepareDeliveryNext:'Delivery প্রস্তুত করুন',wfCodSummary:'Cash on delivery হলে?',wfCodCopy:'এই উদাহরণে paid bKash order দেখানো হয়েছে। Cash-on-delivery payment collection বা settlement record না হওয়া পর্যন্ত unpaid থাকে।',
-    wfDeliveryOrderKicker:'ORDER #1051',wfDeliveryOrderTitle:'অর্ডারটি এখন delivery-র জন্য প্রস্তুত',wfDeliveryKicker:'DELIVERY DEMO',wfDeliveryTitle:'পরের কাজটি প্রস্তুত করুন',wfDeliveryHelp:'Connected Pathao merchant account দিয়ে booking কীভাবে প্রস্তুত হয়, এখানে সেটিই দেখানো হচ্ছে।',wfCourier:'কুরিয়ার',wfPrepareDelivery:'নমুনা delivery প্রস্তুত করুন',wfDeliveryPrepared:'Delivery প্রস্তুত',wfReadyPrepare:'প্রস্তুত করার জন্য ready',wfAwaitPickup:'Courier pickup-এর অপেক্ষা',wfBookingSimulated:'Booking simulated। Pickup এখনো হয়নি।',wfPrefillNote:'Delivery ধাপটি দেখার জন্য একটি sample order আগে থেকেই দেখানো হয়েছে।',
-    wfCaption1:'Headline আর brand color বদলান। Edit করলেই storefront বদলাবে।',wfCaption2:'অর্ডার প্রস্তুত। Payment আর stock update হয়েছে।',wfCaption2Before:'Payment আর stock update দেখতে sample order দিন।',wfCaption3:'Delivery প্রস্তুত। এখন courier pickup-এর অপেক্ষা।',wfCaption3Before:'পরের courier state দেখতে sample delivery প্রস্তুত করুন।',wfReplay:'Replay',wfBack:'পেছনে',wfNextOrders:'পরের ধাপ: ক্রেতার অর্ডার',wfNextDelivery:'পরের ধাপ: delivery সামলান',wfChooseStorefront:'আপনার storefront বেছে নিন',wfSafeNote:'যে কোনো ধাপ দেখুন। এখানে কোনো আসল order তৈরি, payment নেওয়া বা store change করা হয় না।',wfExploreEditor:'পুরো editor খুলে দেখুন',
-    builderLabel:'পুরো STOREFRONT EDITOR',builderTitle:'পুরো storefront editor ব্যবহার করে দেখুন।',builderCopy:'একই interactive editor-এ লেখা, রং, alignment আর section order বদলান।',builderHint:'Keyboard দিয়েও Alt + ↑ / ↓ ব্যবহার করে section reorder করা যায়।',
-    templatesKicker:'আপনি যেভাবে বিক্রি করেন',templatesTitle:'আপনার ব্যবসার জন্য মানানসই storefront বেছে নিন।',templatesCopy:'Product, service বা stay—ভিন্নভাবে কীভাবে উপস্থাপন করা যায় দেখুন। একটি starting point বেছে নিয়ে নিজের মতো করুন।',examplesKicker:'EXAMPLE STORES · নমুনা ব্যবসা',examplesTitle:'ক্রেতার সম্পূর্ণ storefront experience দেখে নিন।',
-    localTitle:'পরিচিত payment। আরও পরিষ্কার delivery workflow.',localCopy:'ক্রেতারা যে option চেনেন সেগুলো দিন, আর বিক্রি শুরু করার আগে কোন setup লাগবে তা পরিষ্কারভাবে বুঝুন।',autoConnected:'Merchant account connected থাকলে automated checkout.',storeOption:'ক্রেতার জন্য পরিচিত checkout option.',codOption:'ক্রেতাকে delivery-র সময় payment করতে দিন।',merchantApi:'Order workflow থেকেই courier booking প্রস্তুত করুন।',
-    onboardKicker:'SIGNUP থেকে STOREFRONT',onboardTitle:'Store চালুর পরিষ্কার পথ।',onboard1:'Account তৈরি করুন',onboard1Copy:'একটি storefront direction দিয়ে শুরু করুন।',onboard2:'Product আর brand যোগ করুন',onboard2Copy:'Content, price আর image যোগ করুন।',onboard3:'Payment আর delivery setup করুন',onboard3Copy:'ব্যবসার দরকারি option connect করুন।',onboard4:'Storefront publish করুন',onboard4Copy:'Customer experience দেখে নিয়ে link share করুন।',
-    pricingTitle:'ফ্রি দিয়ে শুরু করুন। ব্যবসা বাড়লে দরকারি tool যোগ করুন।',pricingCopy:'আজ যেভাবে বিক্রি করেন তার জন্য plan বেছে নিন। Upgrade করার আগে কী কী আছে দেখে নিন।',basicFeature3:'১৪ দিনের trial',advancedFeature3:'১৪ দিনের trial',pricingFineprint:'Payment, courier, messaging এবং domain-provider-এর আলাদা charge থাকতে পারে। Custom domain-এর জন্য eligible plan ও DNS verification দরকার।',
-    faqTitle:'শুরু করার আগে।',faqQ1:'Coding না জানলেও কি শুরু করতে পারি?',faqA1:'Template দিয়ে শুরু করে storefront visually edit করতে পারবেন। Payment, delivery আর domain connection-এ অতিরিক্ত setup লাগতে পারে।',faqQ2:'Facebook বা Instagram-এর পাশাপাশি EZComo ব্যবহার করতে পারি?',faqA2:'হ্যাঁ। Social channel-এ storefront link share করুন, যাতে ক্রেতা এক জায়গায় product দেখে order করতে পারে।',faqQ3:'কোন payment option দিতে পারি?',faqA3:'EZComo bKash, Nagad এবং cash on delivery সহ local checkout option support করে। Automated payment confirmation method ও account setup-এর ওপর নির্ভর করে।',faqQ4:'Order থেকে courier booking করতে পারি?',faqA4:'Supported Pathao workflow merchant connection configured থাকলে booking প্রস্তুত করতে পারে। Automation-এর ওপর নির্ভর করার আগে chosen courier-এর requirement দেখুন।',faqQ5:'নিজের domain ব্যবহার করতে পারি?',faqA5:'Eligible plan-এ DNS setup ও verification-এর পর custom domain ব্যবহার করা যায়।',faqQ6:'Template বেছে নিলে এরপর কী হয়?',faqA6:'আপনার chosen starting point signup-এ carry হয়। এরপর plan-এর included tool দিয়ে brand আর content যোগ করতে পারবেন।',faqQ7:'এই page-এর store আর order কি আসল?',faqA7:'উদাহরণগুলো sample business আর sample data ব্যবহার করে। Homepage walkthrough কোনো আসল payment নেয় না, order তৈরি করে না বা courier book করে না।',faqQ8:'Help কীভাবে পাব?',faqA8:'বর্তমান contact option আর setup help-এর জন্য EZComo support page দেখুন।',
-    closingTitle:'ক্রেতাকে কেনাকাটার জায়গা দিন। নিজের জন্য ব্যবসা চালানোর পরিষ্কার পথ রাখুন।',closingCopy:'একটি starting point বেছে নিন, নিজের মতো করুন এবং প্রতিটি sale-এর পেছনের কাজ একসাথে রাখুন।',browseAgain:'Storefront example দেখুন'
-  ,
-    wfResetAll:'সব demo change reset করুন'
+  });
+
+  Object.assign(i18n.en,{
+    featuresKicker:'Product walkthrough',
+    featuresTitle:'Build. Sell. Manage. See the whole business flow.',
+    featuresCopy:'Three visible chapters keep the full editor, original animated order workflow and merchant workspace on the page at the same time. The same Studio Tee and order #1051 carry through the story.',
+    chapterBuild:'Build',chapterBuildCopy:'Customize the storefront',chapterBuildTitle:'Build the storefront in the full editor.',chapterBuildLead:'Edit text, drag content, recolor sections and reorder all eleven storefront blocks. Your changes stay intact while you continue through Sell and Manage.',chapterEditsPersist:'Your storefront edits stay exactly where you leave them.',nextSell:'Next: Sell',
+    chapterSell:'Sell',chapterSellCopy:'Run the original order animation',chapterSellTitle:'Watch the original animated order workflow.',chapterSellLead:'Run or replay the full EZComo sequence for Studio Tee order #1051: payment, order, Pathao booking, pickup, inventory and estimated margin.',chapterWorkflowNote:'The Manage workspace below updates from this same sample order.',nextManage:'Next: Manage',
+    chapterManage:'Manage',chapterManageCopy:'Work from the same order',chapterManageTitle:'Keep the order visible after checkout.',chapterManageLead:'Open #1051 and see the same payment, courier, pickup, stock and estimated margin states reflected in the merchant workspace.',chapterManageDone:'You have seen the storefront, the sale and the work behind it.',nextStorefronts:'Next: choose a storefront',
+    builderTitle:'Make the storefront feel like your business.',builderCopy:'Change text, drag content, recolor sections and reorder the full page without leaving this demonstration.',builderHint:'Full editor restored · all eleven sections remain editable and reorderable.',
+    workflowLabel:'02 · SELL · ORIGINAL ORDER WORKFLOW',workflowTitle:'Watch the same Studio Tee sale move through the full workflow.',workflowCopy:'Order #1051 moves through payment, order creation, Pathao booking, pickup, stock and estimated margin—using the original EZComo workflow animation.',workflowResult:'Order #1051 is fully recorded in the workspace.',workflowResultNote:'Payment, Pathao booking, pickup, stock and estimated margin stay visible for the same sample order.',
+    workspaceLabel:'03 · MANAGE · MERCHANT WORKSPACE',workspaceTitle:'Manage the same order from one workspace.',workspaceCopy:'Open Studio Tee order #1051 and inspect the payment, Pathao booking, pickup, stock and estimated margin produced by the Sell chapter.',workspaceHint:'Interactive demo · sample data · synced with order #1051',workspaceGreeting:'Order #1051 is waiting for the Sell workflow.',workspaceNewOrder:'Open order #1051',workspaceSample:'sample order · waiting',workspaceNext:'SYNCED STORY',workspaceNextBook:'Run the Sell workflow to populate this workspace.',workspaceNextNote:'The same sample order #1051 is used in both chapters.',workspaceBackToSell:'Replay the Sell workflow ↑',workspaceMarginLabel:'Estimated margin',workspaceMarginNote:'Sample item cost assumed in demo',
+    workspaceWaiting:'Waiting',workspaceReceived:'Received',workspaceBooking:'Booking…',workspaceBooked:'Booked',workspacePickedUp:'Picked up',workspaceRecorded:'Recorded',workspaceSynced:'Order #1051 synced',workspaceRunSell:'Run the Sell workflow to populate this workspace.'
+  });
+  Object.assign(i18n.bn,{
+    featuresKicker:'প্রোডাক্ট ওয়াকথ্রু',
+    featuresTitle:'Build. Sell. Manage. পুরো ব্যবসার flow একসাথে দেখুন।',
+    featuresCopy:'তিনটি দৃশ্যমান chapter-এ full editor, original animated order workflow আর merchant workspace একসাথেই থাকে। একই Studio Tee আর #1051 অর্ডার পুরো গল্প জুড়ে চলবে।',
+    chapterBuild:'Build',chapterBuildCopy:'স্টোরফ্রন্ট নিজের মতো করুন',chapterBuildTitle:'Full editor-এ storefront তৈরি করুন।',chapterBuildLead:'লেখা edit করুন, content drag করুন, section-এর রং বদলান এবং এগারোটি storefront block reorder করুন। Sell ও Manage-এ গেলেও আপনার পরিবর্তন থাকবে।',chapterEditsPersist:'আপনার storefront edit যেমন আছে তেমনই থাকবে।',nextSell:'পরের ধাপ: Sell',
+    chapterSell:'Sell',chapterSellCopy:'Original order animation চালান',chapterSellTitle:'Original animated order workflow দেখুন।',chapterSellLead:'Studio Tee-এর #1051 অর্ডার দিয়ে payment, order, Pathao booking, pickup, inventory আর estimated margin-এর পুরো EZComo sequence চালান বা replay করুন।',chapterWorkflowNote:'নিচের Manage workspace একই sample order থেকে update হয়।',nextManage:'পরের ধাপ: Manage',
+    chapterManage:'Manage',chapterManageCopy:'একই অর্ডার থেকে কাজ চালান',chapterManageTitle:'Checkout-এর পরও অর্ডারটি workspace-এ দৃশ্যমান রাখুন।',chapterManageLead:'#1051 খুলে একই payment, courier, pickup, stock আর estimated margin state merchant workspace-এ দেখুন।',chapterManageDone:'Storefront, sale এবং পেছনের operation—তিনটিই দেখেছেন।',nextStorefronts:'পরের ধাপ: storefront বেছে নিন',
+    builderTitle:'Storefront-কে নিজের ব্যবসার মতো সাজান।',builderCopy:'লেখা, content position, section color আর পুরো page order এই demo থেকেই বদলান।',builderHint:'Full editor restored · এগারোটি section-ই editable ও reorderable.',
+    workflowLabel:'০২ · SELL · ORIGINAL ORDER WORKFLOW',workflowTitle:'একই Studio Tee sale পুরো workflow দিয়ে এগোতে দেখুন।',workflowCopy:'#1051 অর্ডার payment, order creation, Pathao booking, pickup, stock আর estimated margin দিয়ে original EZComo animation-এ এগোয়।',workflowResult:'#1051 অর্ডারের পুরো state workspace-এ রেকর্ড হয়েছে।',workflowResultNote:'Payment, Pathao booking, pickup, stock আর estimated margin একই sample order-এর সঙ্গে দৃশ্যমান থাকে।',
+    workspaceLabel:'০৩ · MANAGE · মার্চেন্ট ওয়ার্কস্পেস',workspaceTitle:'একই অর্ডার এক workspace থেকে manage করুন।',workspaceCopy:'Studio Tee-এর #1051 খুলে Sell chapter থেকে আসা payment, Pathao booking, pickup, stock আর estimated margin দেখুন।',workspaceHint:'Interactive demo · sample data · #1051-এর সঙ্গে synced',workspaceGreeting:'#1051 অর্ডার Sell workflow-এর জন্য অপেক্ষায়।',workspaceNewOrder:'#1051 অর্ডার খুলুন',workspaceSample:'sample order · waiting',workspaceNext:'একই গল্পের পরের অংশ',workspaceNextBook:'Workspace populate করতে Sell workflow চালান।',workspaceNextNote:'দুই chapter-এই একই sample #1051 ব্যবহার করা হয়েছে।',workspaceBackToSell:'Sell workflow আবার চালান ↑',workspaceMarginLabel:'আনুমানিক মার্জিন',workspaceMarginNote:'Demo-তে sample item cost ধরা হয়েছে',
+    workspaceWaiting:'অপেক্ষায়',workspaceReceived:'রিসিভড',workspaceBooking:'বুক হচ্ছে…',workspaceBooked:'বুকড',workspacePickedUp:'পিকআপ হয়েছে',workspaceRecorded:'রেকর্ডেড',workspaceSynced:'#1051 অর্ডার synced',workspaceRunSell:'Workspace populate করতে Sell workflow চালান।'
   });
 
   const faq = {
@@ -433,6 +420,26 @@
     });
   }
 
+  const chapterLinks=$$('.chapter-link');
+  const chapterSections=$$('.product-chapter');
+  const markChapter=id=>{
+    chapterLinks.forEach(link=>{
+      const active=link.getAttribute('href')==='#'+id;
+      link.classList.toggle('active',active);
+      if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
+    });
+  };
+  chapterLinks.forEach(link=>link.addEventListener('click',()=>markChapter(link.getAttribute('href').slice(1))));
+  if('IntersectionObserver' in window&&chapterSections.length){
+    const chapterObserver=new IntersectionObserver(entries=>{
+      const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
+      if(visible)markChapter(visible.target.id);
+    },{threshold:[.18,.35,.55],rootMargin:'-18% 0px -55% 0px'});
+    chapterSections.forEach(section=>chapterObserver.observe(section));
+  }
+  markChapter('chapter-build');
+
+
   const wireTabKeyboard=(selector,activate)=>{
     const items=$$(selector);
     items.forEach((btn,index)=>{
@@ -452,7 +459,8 @@
   wireTabKeyboard('.store-tab',btn=>selectTemplate(btn.dataset.template));
   wireTabKeyboard('.template-option',btn=>selectDirection(btn.dataset.templateFull));
   wireTabKeyboard('.faq-tab',btn=>{faqCategory=btn.dataset.faq;renderFaq()});
-$$('.brand[href="#pageTop"]').forEach(link=>link.addEventListener('click',e=>{
+
+  $$('.brand[href="#pageTop"]').forEach(link=>link.addEventListener('click',e=>{
     e.preventDefault();
     history.replaceState(null,'',location.pathname+location.search);
     scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});
@@ -695,229 +703,163 @@ $$('.brand[href="#pageTop"]').forEach(link=>link.addEventListener('click',e=>{
     selectLayer(selectedLayer,selectedText);
   }
 
-  // Guided sample workflow: one deterministic controller owns all commerce demo state.
-  const wfRoot=$('#features');
-  const wfShell=$('#workflowShell');
-  const wfStage=$('#workflowStage');
-  const wfWatch=$('#workflowWatch');
-  const wfExplore=$('#workflowExplore');
-  const wfReplay=$('#workflowReplay');
-  const wfResetAll=$('#workflowResetAll');
-  const wfBack=$('#workflowBack');
-  const wfNext=$('#workflowNext');
-  const wfStepLabel=$('#workflowStepLabel');
-  const wfModeLabel=$('#workflowModeLabel');
-  const wfCaption=$('#workflowCaption');
-  const wfHeadlineInput=$('#workflowHeadlineInput');
-  const wfPreviewHeadline=$('#workflowPreviewHeadline');
-  const wfStorePreview=$('#workflowStorePreview');
-  const wfPlaceOrder=$('#workflowPlaceOrder');
-  const wfOrderSafety=$('#workflowOrderSafety');
-  const wfOrderTitle=$('#workflowOrderTitle');
-  const wfPaidBadge=$('#workflowPaidBadge');
-  const wfPaymentValue=$('#workflowPaymentValue');
-  const wfStockValue=$('#workflowStockValue');
-  const wfNextActionValue=$('#workflowNextActionValue');
-  const wfPrepareDelivery=$('#workflowPrepareDelivery');
-  const wfDeliveryRef=$('#workflowDeliveryRef');
-  const wfTerminalStatus=$('#workflowTerminalStatus');
-  const wfPickupNote=$('#workflowPickupNote');
-  const wfPrefillNote=$('#workflowPrefillNote');
-  const fullEditorDisclosure=$('#fullEditorDisclosure');
-  const reducedQuery=matchMedia('(prefers-reduced-motion:reduce)');
+  // Commerce workflow proof: original V4 animation, auto-runs once on view and is replayable.
+  const workflowDemo=$('#workflowDemo');
+  const workflowCard=$('#orderWorkflowCard');
+  const workflowRun=$('#workflowRun');
+  const placeOrderDemo=$('#placeOrderDemo');
+  const workflowStatus=$('#workflowStatus');
+  const workflowNow=$('#workflowNow');
 
-  const workflow={
-    chapter:0, mode:'explore', status:'idle', elapsed:0, startedAt:0, raf:0, generation:0,
-    orderPlaced:false, deliveryPrepared:false, prefilledOrder:false,
-    editorDraft:{headline:'Made for your everyday.',accent:'#173F32'},
-    watchVisualHeadline:null, watchVisualAccent:null, reduced:reducedQuery.matches,lastRenderKey:''
+  // Manage chapter reflects the exact same sample order; it owns no second commerce state.
+  const workspaceOrdersBtn=$('#workspaceOrdersBtn');
+  const workspaceOrderRow=$('#workspaceOrderRow');
+  const workspaceOrderDetail=$('#workspaceOrderDetail');
+  const workspaceGreeting=$('#workspaceGreeting');
+  const workspacePaymentMetric=$('#workspacePaymentMetric');
+  const workspaceStockMetric=$('#workspaceStockMetric');
+  const workspaceCourierMetric=$('#workspaceCourierMetric');
+  const workspaceSampleState=$('#workspaceSampleState');
+  const workspaceOrderState=$('#workspaceOrderState');
+  const workspacePaymentDetail=$('#workspacePaymentDetail');
+  const workspaceStockDetail=$('#workspaceStockDetail');
+  const workspaceDeliveryState=$('#workspaceDeliveryState');
+  const workspaceCourierRef=$('#workspaceCourierRef');
+  const workspaceMarginState=$('#workspaceMarginState');
+  const workspaceNextText=$('#workspaceNextText');
+  const workspaceNextNote=$('#workspaceNextNote');
+  const openWorkspaceOrder=()=>{
+    if(workspaceOrderDetail)workspaceOrderDetail.hidden=false;
+    workspaceOrderRow?.classList.add('open');
   };
-  const workflowRenderKey=()=>[workflow.chapter,workflow.mode,workflow.status,workflow.orderPlaced,workflow.deliveryPrepared,workflow.prefilledOrder,workflow.editorDraft.headline,workflow.editorDraft.accent,workflow.watchVisualHeadline||'',workflow.watchVisualAccent||'',lang,workflow.reduced].join('|');
-  const wfText=(key,fallback)=>i18n[lang]?.[key]||fallback||key;
-  const workflowOrderReady=()=>workflow.orderPlaced||workflow.prefilledOrder;
-  const cancelWorkflowFrame=()=>{if(workflow.raf){cancelAnimationFrame(workflow.raf);workflow.raf=0}};
-  const setWorkflowChapter=(chapter,{manual=false,prefill=true}={})=>{
-    workflow.chapter=Math.max(0,Math.min(2,Number(chapter)||0));
-    if(manual){
-      workflow.mode='explore';workflow.status='idle';workflow.watchVisualHeadline=null;workflow.watchVisualAccent=null;
-      cancelWorkflowFrame();
-      if(workflow.chapter===2&&!workflow.orderPlaced&&prefill)workflow.prefilledOrder=true;
-    }
-    renderWorkflow();
+  workspaceOrdersBtn?.addEventListener('click',openWorkspaceOrder);
+  workspaceOrderRow?.addEventListener('click',openWorkspaceOrder);
+
+  let activeWorkflowStep=null;
+  const workflowNarration={
+    en:{payment:'Receiving customer payment…',order:'Creating order #1051 in the workspace…',courier:'Booking Pathao pickup…',booked:'Saving courier booking PX-84721…',pickup:'Tracking courier pickup…',inventory:'Reducing Studio Tee stock 18 → 17…',profit:'Calculating estimated item margin…'},
+    bn:{payment:'পেমেন্ট গ্রহণ করা হচ্ছে…',order:'ওয়ার্কস্পেসে #1051 অর্ডার তৈরি হচ্ছে…',courier:'Pathao-তে পিকআপ বুক করা হচ্ছে…',booked:'PX-84721 কুরিয়ার বুকিং সংরক্ষণ করা হচ্ছে…',pickup:'কুরিয়ারের পিকআপ ট্র্যাক করা হচ্ছে…',inventory:'Studio Tee-এর স্টক ১৮ থেকে ১৭ করা হচ্ছে…',profit:'আনুমানিক item margin হিসাব করা হচ্ছে…'}
   };
-  const syncFullEditorDraft=()=>{
-    const fullHero=$('[data-editable="heroTitle"] .editable-title',$('#editorDemo')||document);
-    if(fullHero&&document.activeElement!==fullHero)fullHero.textContent=workflow.editorDraft.headline;
+  const workflowStepDone=name=>$('.workflow-step[data-step="'+name+'"]',workflowDemo||document)?.classList.contains('done')||false;
+  const t=(key,fallback)=>i18n[lang]?.[key]||fallback;
+  const syncWorkspaceSnapshot=()=>{
+    const payment=workflowStepDone('payment');
+    const order=workflowStepDone('order');
+    const courier=workflowStepDone('courier');
+    const booked=workflowStepDone('booked');
+    const pickup=workflowStepDone('pickup');
+    const inventory=workflowStepDone('inventory');
+    const profit=workflowStepDone('profit');
+    const finished=workflowDemo?.classList.contains('finished');
+
+    if(workspacePaymentMetric)workspacePaymentMetric.textContent=payment?(lang==='bn'?'পেইড':'Paid'):t('workspaceWaiting','Waiting');
+    if(workspacePaymentDetail)workspacePaymentDetail.textContent=payment?(lang==='bn'?'পেইড · bKash':'Paid · bKash'):(lang==='bn'?'অপেক্ষায় · bKash':'Waiting · bKash');
+    if(workspaceStockMetric)workspaceStockMetric.textContent=inventory?'17':'18';
+    if(workspaceStockDetail)workspaceStockDetail.textContent=inventory?'18 → 17':(lang==='bn'?'18 in stock · অপেক্ষায়':'18 in stock · waiting');
+    if(workspaceOrderState)workspaceOrderState.textContent=pickup?t('workspacePickedUp','Picked up'):order?t('workspaceReceived','Received'):t('workspaceWaiting','Waiting');
+    if(workspaceCourierMetric)workspaceCourierMetric.textContent=pickup?t('workspacePickedUp','Picked up'):booked?t('workspaceBooked','Booked'):courier?t('workspaceBooking','Booking…'):(lang==='bn'?'বুক হয়নি':'Not booked');
+    if(workspaceDeliveryState)workspaceDeliveryState.textContent=pickup?(lang==='bn'?'Pathao pickup হয়েছে':'Pathao pickup collected'):booked?(lang==='bn'?'Pathao বুক হয়েছে':'Pathao booked'):(lang==='bn'?'বুক হয়নি':'Not booked');
+    if(workspaceCourierRef)workspaceCourierRef.textContent=booked?'PX-84721':'—';
+    if(workspaceMarginState)workspaceMarginState.textContent=profit?'+৳690':'—';
+    if(workspaceSampleState)workspaceSampleState.textContent=finished?t('workspaceSynced','Order #1051 synced'):(order?(lang==='bn'?'sample order · active':'sample order · active'):t('workspaceSample','sample order · waiting'));
+    if(workspaceGreeting)workspaceGreeting.textContent=finished?(lang==='bn'?'#1051 অর্ডারের সব state workspace-এ দৃশ্যমান।':'Order #1051 is fully visible in the workspace.'):(order?(lang==='bn'?'#1051 অর্ডার workflow-এর মধ্যে চলছে।':'Order #1051 is moving through the Sell workflow.'):t('workspaceGreeting','Order #1051 is waiting for the Sell workflow.'));
+    if(workspaceNextText)workspaceNextText.textContent=finished?(lang==='bn'?'Payment, pickup, stock আর margin একই অর্ডারে synced.':'Payment, pickup, stock and margin are synced to #1051.'):t('workspaceRunSell','Run the Sell workflow to populate this workspace.');
+    if(workspaceNextNote)workspaceNextNote.textContent=finished?(lang==='bn'?'Open order #1051 দিয়ে সব details দেখুন।':'Open order #1051 to inspect every recorded detail.'):t('workspaceNextNote','The same sample order #1051 is used in both chapters.');
   };
-  const syncDraftFromFullEditor=()=>{
-    const fullHero=$('[data-editable="heroTitle"] .editable-title',$('#editorDemo')||document);
-    const value=fullHero?.textContent?.trim();
-    if(value){workflow.editorDraft.headline=value;if(wfHeadlineInput)wfHeadlineInput.value=value;renderWorkflow()}
+
+  const syncWorkflowNow=()=>{
+    if(!workflowNow)return;
+    if(activeWorkflowStep)workflowNow.textContent=workflowNarration[lang]?.[activeWorkflowStep]||workflowNarration.en[activeWorkflowStep];
+    else if(workflowDemo?.classList.contains('finished'))workflowNow.textContent=i18n[lang]?.workflowNowDone||'Order complete — all actions recorded.';
+    else workflowNow.textContent=i18n[lang]?.workflowNowReady||'Ready to run the order.';
   };
-  const renderWorkflow=()=>{
-    if(!wfRoot)return;
-    const chapter=workflow.chapter;
-    $$('.workflow-chapter',wfRoot).forEach((btn,index)=>{
-      const current=index===chapter;btn.classList.toggle('active',current);
-      if(current)btn.setAttribute('aria-current','step');else btn.removeAttribute('aria-current');
+  let workflowRunning=false,workflowPlayed=false,workflowTimers=[];
+  const workflowOrder=['payment','order','courier','booked','pickup','inventory','profit'];
+  const clearWorkflowTimers=()=>{workflowTimers.forEach(clearTimeout);workflowTimers=[]};
+  const setWorkflowStatus=key=>{if(workflowStatus)workflowStatus.textContent=i18n[lang]?.[key]||key};
+  const resetWorkflow=()=>{
+    clearWorkflowTimers();
+    workflowRunning=false;
+    workflowDemo?.classList.remove('running','courier-click','finished');
+    activeWorkflowStep=null;
+    $$('.workflow-step',workflowDemo||document).forEach(step=>{step.classList.remove('active','done','just-completed');step.style.removeProperty('--workflow-hold');});
+    if(workflowRun)workflowRun.disabled=false;
+    setWorkflowStatus('workflowWaiting');
+    syncWorkflowNow();
+    syncWorkspaceSnapshot();
+  };
+  const activateWorkflowStep=(name,hold)=>{
+    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);
+    if(!step)return;
+    if(hold)step.style.setProperty('--workflow-hold',hold+'ms');
+    activeWorkflowStep=name;
+    syncWorkflowNow();
+    step.classList.add('active');
+    syncWorkspaceSnapshot();
+  };
+  const completeWorkflowStep=name=>{
+    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);
+    if(!step)return;
+    step.classList.remove('active');
+    step.classList.add('done','just-completed');
+    syncWorkspaceSnapshot();
+    setTimeout(()=>step.classList.remove('just-completed'),500);
+  };
+  const runWorkflow=()=>{
+    if(!workflowDemo||workflowRunning)return;
+    resetWorkflow();
+    workflowRunning=true;
+    workflowPlayed=true;
+    if(workflowRun)workflowRun.disabled=true;
+    workflowDemo.classList.add('running');
+    setWorkflowStatus('workflowRunning');
+    const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
+    const workflowTiming=reduced
+      ? {start:0,step:24,courier:48,gap:8,finish:40}
+      : {start:1600,step:3600,courier:5200,gap:800,finish:1200};
+    let time=workflowTiming.start;
+    workflowOrder.forEach(name=>{
+      const hold=name==='courier'?workflowTiming.courier:workflowTiming.step;
+      const gap=workflowTiming.gap;
+      workflowTimers.push(setTimeout(()=>{
+        if(name==='courier')workflowDemo.classList.add('courier-click');
+        activateWorkflowStep(name,hold);
+      },time));
+      workflowTimers.push(setTimeout(()=>{
+        completeWorkflowStep(name);
+        if(name==='courier')workflowDemo.classList.remove('courier-click');
+      },time+hold));
+      time+=hold+gap;
     });
-    $$('[data-wf-scene]',wfRoot).forEach((scene,index)=>scene.hidden=index!==chapter);
-    if(wfModeLabel)wfModeLabel.textContent=chapter===0?wfText('wfStorefrontDemo','STOREFRONT DEMO'):chapter===1?wfText('wfOrderDemo','ORDER DEMO'):wfText('wfDeliveryDemo','DELIVERY DEMO');
-    if(wfStepLabel)wfStepLabel.textContent=lang==='bn'?('ধাপ '+(chapter+1)+' / ৩'):('Step '+(chapter+1)+' of 3');
-    if(wfBack){wfBack.disabled=chapter===0;wfBack.hidden=chapter===0}
-    if(wfNext){
-      const span=$('span',wfNext);
-      if(chapter===0){if(span)span.textContent=wfText('wfNextOrders','Next: customer orders');wfNext.dataset.action='next'}
-      else if(chapter===1){if(span)span.textContent=wfText('wfNextDelivery','Next: manage delivery');wfNext.dataset.action='next'}
-      else{if(span)span.textContent=wfText('wfChooseStorefront','Choose your storefront');wfNext.dataset.action='templates'}
-    }
-
-    const visualHeadline=workflow.watchVisualHeadline||workflow.editorDraft.headline;
-    const visualAccent=workflow.watchVisualAccent||workflow.editorDraft.accent;
-    if(wfPreviewHeadline)wfPreviewHeadline.textContent=visualHeadline;
-    if(wfHeadlineInput&&document.activeElement!==wfHeadlineInput)wfHeadlineInput.value=workflow.editorDraft.headline;
-    wfStorePreview?.style.setProperty('--wf-accent',visualAccent);
-    $$('[data-wf-accent]',wfRoot).forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.wfAccent===workflow.editorDraft.accent)));
-
-    if(wfPlaceOrder){
-      wfPlaceOrder.disabled=workflow.orderPlaced;
-      wfPlaceOrder.textContent=workflow.orderPlaced?wfText('wfOrderPlaced','Sample order placed'):wfText('wfPlaceOrder','Place sample order');
-    }
-    if(wfOrderSafety)wfOrderSafety.textContent=workflow.orderPlaced?wfText('wfNoPaymentDone','Sample order placed. No payment was taken.'):wfText('wfNoPayment','Nothing here takes a real payment.');
-    if(wfOrderTitle)wfOrderTitle.textContent=workflow.orderPlaced?wfText('wfOrderReceived','Order #1051 received'):wfText('wfOrderPreviewTitle','Order preview');
-    if(wfPaidBadge){wfPaidBadge.textContent=workflow.orderPlaced?wfText('wfPaid','Paid'):wfText('wfWaiting','Waiting');wfPaidBadge.classList.toggle('paid',workflow.orderPlaced)}
-    if(wfPaymentValue)wfPaymentValue.textContent=workflow.orderPlaced?'৳1,490 · bKash':'—';
-    if(wfStockValue)wfStockValue.textContent=workflow.orderPlaced?'18 → 17':'18';
-    if(wfNextActionValue)wfNextActionValue.textContent=workflow.orderPlaced?wfText('wfPrepareDeliveryNext','Prepare delivery'):wfText('wfPlaceOrderFirst','Place sample order');
-
-    const deliveryContext=workflowOrderReady();
-    if(wfPrefillNote)wfPrefillNote.hidden=!workflow.prefilledOrder||workflow.orderPlaced;
-    const deliveryPayment=$('#workflowDeliveryPayment'),deliveryStock=$('#workflowDeliveryStock');
-    if(deliveryPayment)deliveryPayment.textContent=deliveryContext?'Paid · bKash':'—';
-    if(deliveryStock)deliveryStock.textContent=deliveryContext?'17 remaining':'18 remaining';
-    if(wfPrepareDelivery){
-      wfPrepareDelivery.disabled=workflow.deliveryPrepared;
-      wfPrepareDelivery.textContent=workflow.deliveryPrepared?wfText('wfDeliveryPrepared','Delivery prepared'):wfText('wfPrepareDelivery','Prepare sample delivery');
-    }
-    if(wfDeliveryRef)wfDeliveryRef.textContent=workflow.deliveryPrepared?'DEMO-PX-84721':'—';
-    if(wfTerminalStatus)wfTerminalStatus.textContent=workflow.deliveryPrepared?wfText('wfAwaitPickup','Await courier pickup'):wfText('wfReadyPrepare','Ready to prepare');
-    if(wfPickupNote)wfPickupNote.textContent=wfText('wfBookingSimulated','Booking is simulated. Pickup has not happened.');
-
-    if(wfCaption){
-      wfCaption.textContent=chapter===0?wfText('wfCaption1','Change your headline and brand color. The storefront updates as you edit.'):
-        chapter===1?(workflow.orderPlaced?wfText('wfCaption2','The order is ready. Payment and stock are updated.'):wfText('wfCaption2Before','Place the sample order to see payment and stock update.')):
-        (workflow.deliveryPrepared?wfText('wfCaption3','Delivery is prepared. The next action is to await courier pickup.'):wfText('wfCaption3Before','Prepare the sample delivery to see the next courier state.'));
-    }
-    if(wfWatch){
-      const key=workflow.reduced?'workflowExploreReduced':workflow.status==='playing'?'workflowPause':workflow.status==='paused'?'workflowResume':'workflowWatch';
-      const fallback=workflow.reduced?'Explore the three steps':workflow.status==='playing'?'Pause':workflow.status==='paused'?'Resume':'Watch 30-second walkthrough';
-      wfWatch.textContent=wfText(key,fallback);
-      wfWatch.setAttribute('aria-pressed',String(workflow.status==='playing'));
-    }
-    syncFullEditorDraft();
-    workflow.lastRenderKey=workflowRenderKey();
+    workflowTimers.push(setTimeout(()=>{
+      workflowDemo.classList.add('finished');
+      activeWorkflowStep=null;
+      setWorkflowStatus('workflowComplete');
+      syncWorkflowNow();
+      workflowRunning=false;
+      if(workflowRun)workflowRun.disabled=false;
+      syncWorkspaceSnapshot();
+    },time+workflowTiming.finish));
   };
-  const pauseWorkflow=reason=>{
-    if(workflow.status!=='playing')return;
-    workflow.elapsed+=Math.max(0,performance.now()-workflow.startedAt);
-    workflow.status='paused';cancelWorkflowFrame();
-    wfRoot?.setAttribute('data-workflow-pause-reason',reason||'manual');
-    renderWorkflow();
-  };
-  const resetWorkflow=({resetEdits=false}={})=>{
-    workflow.generation++;cancelWorkflowFrame();workflow.chapter=0;workflow.mode='explore';workflow.status='idle';workflow.elapsed=0;
-    workflow.orderPlaced=false;workflow.deliveryPrepared=false;workflow.prefilledOrder=false;workflow.watchVisualHeadline=null;workflow.watchVisualAccent=null;
-    if(resetEdits)workflow.editorDraft={headline:'Made for your everyday.',accent:'#173F32'};
-    renderWorkflow();
-  };
-  const timelineApply=elapsed=>{
-    // Active elapsed timeline: 0–8 customize, 8–19 order, 19–30 delivery.
-    workflow.watchVisualHeadline=elapsed>=3000&&elapsed<8000?'Everyday essentials. Your way.':null;
-    workflow.watchVisualAccent=elapsed>=3000&&elapsed<8000?'#AC432C':null;
-    if(elapsed<8000){
-      workflow.chapter=0;
-    }else if(elapsed<19000){
-      workflow.chapter=1;
-      if(elapsed>=12000)workflow.orderPlaced=true;
-    }else{
-      workflow.chapter=2;
-      workflow.orderPlaced=true;
-      if(elapsed>=25000)workflow.deliveryPrepared=true;
-    }
-  };
-  const tickWorkflow=now=>{
-    if(workflow.status!=='playing')return;
-    const elapsed=Math.min(30000,workflow.elapsed+Math.max(0,now-workflow.startedAt));
-    timelineApply(elapsed);
-    const key=workflowRenderKey();
-    if(key!==workflow.lastRenderKey)renderWorkflow();
-    if(elapsed>=30000){
-      workflow.elapsed=30000;workflow.status='complete';workflow.mode='explore';workflow.watchVisualHeadline=null;workflow.watchVisualAccent=null;cancelWorkflowFrame();renderWorkflow();return;
-    }
-    workflow.raf=requestAnimationFrame(tickWorkflow);
-  };
-  const playWorkflow=()=>{
-    if(workflow.reduced){workflow.mode='explore';workflow.status='idle';renderWorkflow();wfStage?.focus();return}
-    if(workflow.status==='paused'){workflow.status='playing';workflow.startedAt=performance.now();workflow.raf=requestAnimationFrame(tickWorkflow);renderWorkflow();return}
-    // Start from the beginning while preserving the editor draft.
-    resetWorkflow();workflow.mode='watch';workflow.status='playing';workflow.startedAt=performance.now();workflow.raf=requestAnimationFrame(tickWorkflow);renderWorkflow();
-  };
-  const exploreWorkflow=()=>{
-    if(workflow.status==='playing')pauseWorkflow('manual');
-    workflow.mode='explore';workflow.status='idle';workflow.watchVisualHeadline=null;workflow.watchVisualAccent=null;cancelWorkflowFrame();renderWorkflow();wfStage?.focus();
-  };
-  const nudgeTransfer=id=>{
-    if(workflow.reduced)return;
-    const node=$(id+' span');node?.animate?.([{transform:'translateX(-7px)',opacity:.45},{transform:'translateX(7px)',opacity:1}],{duration:560,easing:'ease-out'});
-  };
-  const placeSampleOrder=()=>{
-    if(workflow.status==='playing')pauseWorkflow('manual-action');
-    workflow.mode='explore';workflow.status='idle';workflow.chapter=1;workflow.orderPlaced=true;workflow.prefilledOrder=false;nudgeTransfer('#workflowOrderTransfer');renderWorkflow();
-  };
-  const prepareSampleDelivery=()=>{
-    if(workflow.status==='playing')pauseWorkflow('manual-action');
-    workflow.mode='explore';workflow.status='idle';workflow.chapter=2;
-    if(!workflow.orderPlaced)workflow.prefilledOrder=true;
-    workflow.deliveryPrepared=true;nudgeTransfer('#workflowDeliveryTransfer');renderWorkflow();
-  };
-
-  wfWatch?.addEventListener('click',()=>workflow.status==='playing'?pauseWorkflow('explicit'):playWorkflow());
-  wfExplore?.addEventListener('click',exploreWorkflow);
-  wfReplay?.addEventListener('click',()=>{resetWorkflow();playWorkflow()});
-  wfResetAll?.addEventListener('click',()=>{resetWorkflow({resetEdits:true});$('#editorReset')?.click();renderWorkflow()});
-  wfBack?.addEventListener('click',()=>setWorkflowChapter(workflow.chapter-1,{manual:true}));
-  wfNext?.addEventListener('click',()=>{
-    if(wfNext.dataset.action==='templates'){exploreWorkflow();$('#templates')?.scrollIntoView({behavior:workflow.reduced?'auto':'smooth',block:'start'});return}
-    setWorkflowChapter(workflow.chapter+1,{manual:true});
-  });
-  $$('.workflow-chapter',wfRoot||document).forEach(btn=>btn.addEventListener('click',()=>setWorkflowChapter(Number(btn.dataset.wfChapter),{manual:true,prefill:true})));
-  wfHeadlineInput?.addEventListener('focus',()=>pauseWorkflow('edit'));
-  wfHeadlineInput?.addEventListener('input',()=>{
-    if(workflow.status==='playing')pauseWorkflow('edit');
-    workflow.mode='explore';workflow.editorDraft.headline=(wfHeadlineInput.value||'').slice(0,72);workflow.watchVisualHeadline=null;
-    const fullHero=$('[data-editable="heroTitle"] .editable-title',$('#editorDemo')||document);if(fullHero)fullHero.textContent=workflow.editorDraft.headline;renderWorkflow();
-  });
-  $$('[data-wf-accent]',wfRoot||document).forEach(btn=>btn.addEventListener('click',()=>{
-    if(workflow.status==='playing')pauseWorkflow('edit');workflow.mode='explore';workflow.editorDraft.accent=btn.dataset.wfAccent||'#173F32';workflow.watchVisualAccent=null;renderWorkflow();
-  }));
-  wfPlaceOrder?.addEventListener('click',placeSampleOrder);
-  wfPrepareDelivery?.addEventListener('click',prepareSampleDelivery);
-  fullEditorDisclosure?.addEventListener('toggle',()=>{
-    if(fullEditorDisclosure.open){pauseWorkflow('full-editor');syncFullEditorDraft()}
-  });
-  $('#editorDemo')?.addEventListener('input',e=>{if(e.target?.matches?.('[data-editable="heroTitle"] .editable-title'))syncDraftFromFullEditor()});
-  $('#editorReset')?.addEventListener('click',()=>queueMicrotask(()=>{workflow.editorDraft={headline:'Made for your everyday.',accent:'#173F32'};renderWorkflow()}));
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')pauseWorkflow('escape')});
-  document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseWorkflow('hidden')});
-  if(wfRoot&&'IntersectionObserver' in window){
-    const offscreenObserver=new IntersectionObserver(entries=>{if(entries[0]&&!entries[0].isIntersecting)pauseWorkflow('offscreen')},{threshold:0});
-    offscreenObserver.observe(wfRoot);
+  workflowRun?.addEventListener('click',runWorkflow);
+  placeOrderDemo?.addEventListener('click',runWorkflow);
+  if(workflowCard){
+    const workflowObserver=new IntersectionObserver(entries=>{
+      if(entries.some(e=>e.isIntersecting)&&!workflowPlayed){
+        workflowTimers.push(setTimeout(runWorkflow,1200));
+        workflowObserver.disconnect();
+      }
+    },{threshold:.38});
+    workflowObserver.observe(workflowCard);
   }
-  const reducedChanged=e=>{workflow.reduced=e.matches;if(workflow.reduced)pauseWorkflow('reduced-motion');renderWorkflow()};
-  reducedQuery.addEventListener?.('change',reducedChanged);
-  window.__syncWorkflowLanguage=()=>{pauseWorkflow('language');renderWorkflow()};
-  renderWorkflow();
-  $$('.direction-preview button').forEach(btn=>{btn.tabIndex=-1;btn.setAttribute('aria-hidden','true');btn.setAttribute('data-illustration-control','true')});
+  window.__syncWorkflowLanguage=()=>{
+    if(workflowRunning)setWorkflowStatus('workflowRunning');
+    else if(workflowDemo?.classList.contains('finished'))setWorkflowStatus('workflowComplete');
+    else setWorkflowStatus('workflowWaiting');
+    syncWorkflowNow();
+    syncWorkspaceSnapshot();
+  };
+  resetWorkflow();
 
   const revealItems=$$('.reveal').filter(el=>!el.classList.contains('is-visible'));
   if('IntersectionObserver' in window){
@@ -947,23 +889,23 @@ $$('.brand[href="#pageTop"]').forEach(link=>link.addEventListener('click',e=>{
   $$('.system-card,.builder-ui,.admin-ui').forEach(el=>motionObserver.observe(el));
 
   $$('[data-spotlight]').forEach(card=>card.addEventListener('pointermove',e=>{const r=card.getBoundingClientRect();card.style.setProperty('--mx',`${e.clientX-r.left}px`);card.style.setProperty('--my',`${e.clientY-r.top}px`)}));
-  const sticky=$('#stickyCta'); let heroVisible=true,conversionVisible=false,footerVisible=false,dismissed=sessionStorage.getItem('ezcomo-v4-sticky')==='1';
-  const stickyFocusable=()=>$$('a,button,input,select,textarea,[tabindex]',sticky||document);
-  const refreshSticky=()=>{
-    const menuOpen=$('#mobileNav')?.getAttribute('aria-hidden')==='false';
-    const editing=Boolean(document.activeElement?.closest?.('#editorDemo,#workflowShell'));
-    const visible=!heroVisible&&!conversionVisible&&!footerVisible&&!menuOpen&&!editing&&!dismissed;
-    sticky?.classList.toggle('visible',visible);sticky?.setAttribute('aria-hidden',String(!visible));if(sticky)sticky.hidden=!visible;
-    stickyFocusable().forEach(el=>{if(visible){if(el.dataset.stickyTabindex!==undefined){el.tabIndex=Number(el.dataset.stickyTabindex);delete el.dataset.stickyTabindex}else el.removeAttribute('tabindex')}else{if(el.hasAttribute('tabindex'))el.dataset.stickyTabindex=el.getAttribute('tabindex')||'0';el.tabIndex=-1}});
-  };
+  const stage=$('#heroStage');
+  if(stage && matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion:reduce)').matches){
+    stage.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;stage.style.transform=`translate3d(${x*5}px,${y*4}px,0)`});
+    stage.addEventListener('pointerleave',()=>stage.style.transform='');
+  }
+
+  const sticky=$('#stickyCta'); let heroVisible=true,conversionVisible=false,dismissed=sessionStorage.getItem('ezcomo-v4-sticky')==='1';
+  const refreshSticky=()=>{const visible=!heroVisible&&!conversionVisible&&!dismissed;sticky?.classList.toggle('visible',visible);sticky?.setAttribute('aria-hidden',String(!visible))};
   const heroObs=new IntersectionObserver(es=>{heroVisible=es[0].isIntersecting;refreshSticky()},{threshold:.05}); if($('#hero'))heroObs.observe($('#hero'));
   const conversionNodes=new Set();
-  const convObs=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?conversionNodes.add(e.target):conversionNodes.delete(e.target));conversionVisible=conversionNodes.size>0;refreshSticky()},{threshold:.08});
+  const convObs=new IntersectionObserver(es=>{
+    es.forEach(e=>e.isIntersecting?conversionNodes.add(e.target):conversionNodes.delete(e.target));
+    conversionVisible=conversionNodes.size>0;
+    refreshSticky();
+  },{threshold:.08});
   ['#pricing','#closing','#features','#templates','.hero-store-shell'].forEach(s=>{const el=$(s);if(el)convObs.observe(el)});
-  if($('.footer'))new IntersectionObserver(es=>{footerVisible=es[0].isIntersecting;refreshSticky()},{threshold:.02}).observe($('.footer'));
-  document.addEventListener('focusin',refreshSticky);document.addEventListener('focusout',()=>setTimeout(refreshSticky,0));
   $('#stickyClose')?.addEventListener('click',()=>{dismissed=true;sessionStorage.setItem('ezcomo-v4-sticky','1');refreshSticky()});
-  refreshSticky();
 
-  applyLanguage('en'); selectTemplate('threads'); selectDirection('fashion'); renderWorkflow();
+  applyLanguage('en'); selectTemplate('threads'); selectDirection('fashion'); renderFaq(); resetWorkflow();
 })();

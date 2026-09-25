@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#171916">
-  <meta name="description" content="Build a branded storefront and manage products, orders, payments, stock and delivery with EZComo, a commerce platform for businesses in Bangladesh."><meta name="robots" content="noindex,nofollow"><meta property="og:title" content="EZComo — Online stores and commerce tools for Bangladesh"><meta property="og:description" content="Build a branded storefront and manage products, orders, payments, stock and delivery with EZComo.">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <title>EZComo — Online stores and commerce tools for Bangladesh</title>
+  <meta name="description" content="EZComo helps Bangladeshi merchants launch branded online stores and manage products, orders, payments and delivery from one workspace.">
+  <link rel="icon" href="data:,">
+  <title>EZComo — Build your store. Run the business behind it.</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="v6-mature">
@@ -14,8 +14,8 @@
 <a class="skip-link" href="#main">Skip to main content</a>
 <div class="announcement" id="announcement">
   <div class="shell announcement-inner">
-    <span data-i18n="announcement">Built for businesses in Bangladesh.</span>
-    <a href="#integrations" data-i18n="announcementCta">See local payment and delivery options →</a>
+    <span data-i18n="announcement">Built for Bangladesh commerce — bKash, Nagad, COD and Pathao workflows.</span>
+    <a href="#templates" data-i18n="announcementCta">Explore storefronts</a>
     <button type="button" id="announcementClose" aria-label="Dismiss announcement">×</button>
   </div>
 </div>
@@ -43,7 +43,7 @@
       <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language"><span>EN</span><span>বাংলা</span></button>
       <a class="nav-login" href="https://ezcomo.shop/login" data-i18n="login">Log in</a>
       <a class="btn btn-primary nav-cta" data-signup href="https://ezcomo.shop/signup?template=threads" data-i18n="startFree">Start free</a>
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i></button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
     </div>
   </div>
   <div class="mobile-nav" id="mobileNav" aria-hidden="true">
@@ -58,18 +58,18 @@
     <div class="hero-copy reveal is-visible">
       <div class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">Commerce built around Bangladesh</span></div>
       <h1 data-i18n-html="heroTitle">Your online store. Your daily business. <em>Connected.</em></h1>
-      <p class="hero-lede" data-i18n="heroLede">Create a storefront customers can shop, then manage products, orders, payments, stock and delivery from one workspace.</p>
+      <p class="hero-lede" data-i18n="heroLede">Build a branded storefront and manage products, orders, payments, stock and delivery from one workspace—built around selling in Bangladesh.</p>
       <div class="hero-actions">
         <a class="btn btn-primary btn-large" data-signup href="https://ezcomo.shop/signup?template=threads"><span data-i18n="createStore">Create free store</span><b>→</b></a>
-        <a class="btn btn-ghost btn-large" href="#features"><span data-i18n="seeStores">See how it works</span><b>↓</b></a>
+        <a class="btn btn-ghost btn-large" href="#features"><span data-i18n="seeStores">Try the editor</span><b>↓</b></a>
       </div>
-      <p class="hero-platform-note" data-i18n="heroSupport">Keep your social channels for discovery. Give every interested customer a clear place to shop.</p><div class="hero-reassurance" aria-label="Storefront benefits"><span data-i18n="heroReassure1">Start from a template</span><span data-i18n="heroReassure2">Edit without code</span><span data-i18n="heroReassure3">Local commerce options</span></div>
+      <p class="hero-platform-note" data-i18n="heroSupport">Selling through Facebook or Instagram? Keep them for discovery—move browsing and orders into your own store.</p>
     </div>
 
     <div class="hero-stage reveal is-visible" id="heroStage">
       <div class="stage-glow" aria-hidden="true"></div>
       <div class="hero-store-shell">
-        <div class="hero-store-meta"><span><i></i>SAMPLE STOREFRONT</span><b id="heroWindowTitle">Threads</b></div>
+        <div class="hero-store-meta"><span><i></i>LIVE STOREFRONT</span><b id="heroWindowTitle">Threads</b></div>
         <div class="hero-preview-frame" id="heroStoreVisual" data-template-visual="threads">
           <div class="storefront-ui">
             <header class="storefront-nav">
@@ -82,9 +82,9 @@
                 <small id="heroStoreEyebrow">NEW DROP 06</small>
                 <h3 id="visualHeadline">Built for the city after dark.</h3>
                 <p id="heroStoreBody">Everyday pieces with a sharper point of view.</p>
-                <div class="storefront-cta-row"><span class="storefront-static-cta" id="heroStoreCta">Shop collection</span><span>View lookbook →</span></div>
+                <div class="storefront-cta-row"><button type="button" id="heroStoreCta">Shop collection</button><span>View lookbook →</span></div>
               </div>
-              <div class="hero-product-photo"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=84" alt="Person wearing a white T-shirt in a sample fashion storefront" width="1000" height="1250"></div>
+              <div class="product-sculpture" aria-hidden="true"><span></span><span></span><span></span></div>
             </section>
             <section class="storefront-featured">
               <div class="storefront-featured-head"><strong id="heroFeaturedTitle">Featured products</strong><span>View all →</span></div>
@@ -97,9 +97,14 @@
           </div>
           <div class="preview-sheen" aria-hidden="true"></div>
         </div>
-        <aside class="hero-ops-dock hero-sample-order" aria-label="Sample merchant outcome">
-          <div class="hero-ops-head"><span data-i18n="heroWorkspaceLabel">SAMPLE VIEW</span><b><i></i><span data-i18n="heroWorkspaceLive">Connected merchant outcome</span></b></div>
-          <div class="hero-sample-row"><span><small data-i18n="heroSampleOrder">Sample order</small><strong>#1051 · Studio Tee</strong></span><em data-i18n="heroPaid">Paid</em><b data-i18n="heroReadyPrepare">Ready to prepare</b></div>
+        <aside class="hero-ops-dock" aria-label="Sample merchant workspace">
+          <div class="hero-ops-head"><span data-i18n="heroWorkspaceLabel">SAMPLE MERCHANT WORKSPACE</span><b><i></i><span data-i18n="heroWorkspaceLive">Today at a glance</span></b></div>
+          <div class="hero-ops-grid">
+            <div><small data-i18n="heroOrders">Orders</small><strong>14</strong><em>+4 today</em></div>
+            <div><small data-i18n="heroPayments">Payment</small><strong>11 paid</strong><em>3 COD</em></div>
+            <div><small data-i18n="heroStock">Low stock</small><strong>2</strong><em data-i18n="heroNeedsAction">needs action</em></div>
+            <div><small data-i18n="heroCourier">Courier</small><strong>4 ready</strong><em>Pathao</em></div>
+          </div>
         </aside>
         <span class="store-tabs-label" data-i18n="heroPreviewLabel">QUICK STOREFRONT EXAMPLES</span>
         <div class="store-tabs" role="tablist" aria-label="Choose storefront preview">
@@ -117,103 +122,40 @@
   <div class="shell proof-rail-inner reveal">
     <div class="proof-intro">
       <span class="mini-label" data-i18n="proofLabel">ONE CONNECTED BUSINESS</span>
-      <strong data-i18n="proofIntro">The storefront and the work behind every sale.</strong>
+      <strong data-i18n="proofIntro">The storefront and the work behind it stay in the same flow.</strong>
     </div>
-    <div class="proof-flow capability-grid" aria-label="EZComo capability map">
-      <div class="proof-node"><strong data-i18n="proofStore">Storefront</strong><small data-i18n="proofStoreNote">Your brand, ready to browse</small></div>
-      <div class="proof-node"><strong data-i18n="proofProducts">Products</strong><small data-i18n="proofProductsNote">Catalog, prices and variants</small></div>
-      <div class="proof-node"><strong data-i18n="proofOrder">Orders</strong><small data-i18n="proofOrderNote">Details in one place</small></div>
-      <div class="proof-node"><strong data-i18n="proofPayments">Payments</strong><small data-i18n="proofPaymentsNote">Know what is paid or pending</small></div>
-      <div class="proof-node"><strong data-i18n="proofStock">Inventory</strong><small data-i18n="proofStockNote">Keep stock visible</small></div>
-      <div class="proof-node"><strong data-i18n="proofDelivery">Delivery</strong><small data-i18n="proofDeliveryNote">See the next action</small></div>
+    <div class="proof-flow" aria-label="EZComo capability map">
+      <div class="proof-node"><b>01</b><strong data-i18n="proofStore">Storefront</strong><small data-i18n="proofStoreNote">Customers browse</small></div><i aria-hidden="true">→</i>
+      <div class="proof-node"><b>02</b><strong data-i18n="proofProducts">Products</strong><small data-i18n="proofProductsNote">Catalog + stock</small></div><i aria-hidden="true">→</i>
+      <div class="proof-node"><b>03</b><strong data-i18n="proofOrder">Orders</strong><small data-i18n="proofOrderNote">Structured details</small></div><i aria-hidden="true">→</i>
+      <div class="proof-node"><b>04</b><strong data-i18n="proofPayments">Payments</strong><small data-i18n="proofPaymentsNote">Paid or COD</small></div><i aria-hidden="true">→</i>
+      <div class="proof-node"><b>05</b><strong data-i18n="proofStock">Inventory</strong><small data-i18n="proofStockNote">Stock stays visible</small></div><i aria-hidden="true">→</i>
+      <div class="proof-node"><b>06</b><strong data-i18n="proofDelivery">Delivery</strong><small data-i18n="proofDeliveryNote">Next action ready</small></div>
     </div>
   </div>
 </section>
 
-<section class="section features-section cms-story-section workflow-v9" id="features">
+<section class="section features-section cms-story-section scrolling-chapters" id="features">
   <div class="shell">
-    <div class="section-heading split reveal workflow-heading">
-      <div><p class="kicker" data-i18n="featuresKicker">See EZComo in action</p><h2 data-i18n="featuresTitle">One sale. Every step connected.</h2></div>
-      <div class="workflow-heading-side"><p data-i18n="featuresCopy">From your storefront to the next delivery — follow one sample order through EZComo.</p><div class="workflow-top-actions"><button type="button" class="workflow-watch" id="workflowWatch" data-i18n="workflowWatch">Watch 30-second walkthrough</button><button type="button" class="workflow-try" id="workflowExplore" data-i18n="workflowExplore">Try it yourself</button></div></div>
+    <div class="section-heading split reveal product-story-intro">
+      <div><p class="kicker" data-i18n="featuresKicker">Product walkthrough</p><h2 data-i18n="featuresTitle">Build. Sell. Manage. See the whole business flow.</h2></div>
+      <p data-i18n="featuresCopy">Three visible chapters keep the full editor, original animated order workflow and merchant workspace on the page at the same time. The same Studio Tee and order #1051 carry through the story.</p>
     </div>
 
-    <nav class="workflow-chapters reveal" aria-label="Guided workflow chapters">
-      <ol>
-        <li><button type="button" class="workflow-chapter active" data-wf-chapter="0" aria-current="step"><span>1</span><b data-i18n="wfChapter1">Customize store</b><small data-i18n="wfChapter1Copy">Make it feel like your brand</small></button></li>
-        <li><button type="button" class="workflow-chapter" data-wf-chapter="1"><span>2</span><b data-i18n="wfChapter2">Customer orders</b><small data-i18n="wfChapter2Copy">See the same sale arrive</small></button></li>
-        <li><button type="button" class="workflow-chapter" data-wf-chapter="2"><span>3</span><b data-i18n="wfChapter3">Manage delivery</b><small data-i18n="wfChapter3Copy">Know what happens next</small></button></li>
-      </ol>
+    <nav class="product-chapter-nav reveal" aria-label="Product demonstration chapters">
+      <a href="#chapter-build" class="chapter-link"><span>01</span><b data-i18n="chapterBuild">Build</b><small data-i18n="chapterBuildCopy">Customize the storefront</small></a>
+      <a href="#chapter-sell" class="chapter-link"><span>02</span><b data-i18n="chapterSell">Sell</b><small data-i18n="chapterSellCopy">Run the original order animation</small></a>
+      <a href="#chapter-manage" class="chapter-link"><span>03</span><b data-i18n="chapterManage">Manage</b><small data-i18n="chapterManageCopy">Work from the same order</small></a>
     </nav>
 
-    <div class="workflow-shell reveal" id="workflowShell">
-      <div class="workflow-appbar"><b>EZCOMO</b><span id="workflowModeLabel" data-i18n="wfStorefrontDemo">STOREFRONT DEMO</span><em data-i18n="wfSampleData">Sample data</em></div>
-      <div class="workflow-stage" id="workflowStage" tabindex="-1" aria-label="Interactive sample workflow">
-        <section class="workflow-scene" data-wf-scene="0">
-          <article class="wf-card wf-controls">
-            <span class="wf-card-kicker" data-i18n="wfCustomizeKicker">CUSTOMIZE</span><h3 data-i18n="wfCustomizeTitle">Make the store yours</h3>
-            <label for="workflowHeadlineInput" data-i18n="wfHeadlineLabel">Storefront headline</label>
-            <input id="workflowHeadlineInput" type="text" maxlength="72" value="Made for your everyday.">
-            <fieldset class="wf-colors"><legend data-i18n="wfColorLabel">Brand color</legend><button type="button" aria-pressed="true" data-wf-accent="#173F32"><i style="background:#173F32"></i><span data-i18n="wfForest">Forest</span></button><button type="button" aria-pressed="false" data-wf-accent="#AC432C"><i style="background:#AC432C"></i><span data-i18n="wfTerracotta">Terracotta</span></button><button type="button" aria-pressed="false" data-wf-accent="#33483D"><i style="background:#33483D"></i><span data-i18n="wfMoss">Moss</span></button></fieldset>
-            <p data-i18n="wfCustomizeHelp">Change the headline or color. The storefront preview updates immediately.</p>
-          </article>
-          <div class="wf-transfer" aria-hidden="true"><span>→</span></div>
-          <article class="wf-card wf-store-preview" id="workflowStorePreview">
-            <div class="wf-mini-nav"><b>THREADS</b><span>New · Shop · Stories</span></div>
-            <div class="wf-mini-hero"><div><small>NEW DROP 06</small><h3 id="workflowPreviewHeadline">Made for your everyday.</h3><span data-i18n="wfShopCollection">Shop collection →</span></div><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=82" alt="Person wearing a white T-shirt in the sample THREADS storefront" width="800" height="1000"></div>
-            <div class="wf-mini-product"><span><b>Studio Tee</b><small>Black / M</small></span><strong>৳1,490</strong></div>
-          </article>
-        </section>
-
-        <section class="workflow-scene" data-wf-scene="1" hidden>
-          <article class="wf-card wf-checkout">
-            <span class="wf-card-kicker" data-i18n="wfCheckoutKicker">SAMPLE CHECKOUT</span><h3 data-i18n="wfCheckoutTitle">Your customer checks out</h3>
-            <div class="wf-product-row"><div class="flat-product flat-tee" aria-hidden="true"><i></i><b></b></div><span><b>Studio Tee</b><small>Black / M · Qty 1</small></span><strong>৳1,490</strong></div>
-            <div class="wf-fact"><span data-i18n="wfPaymentMethod">Payment method</span><b>bKash · <em data-i18n="wfSamplePayment">sample payment</em></b></div>
-            <button type="button" class="wf-primary-action" id="workflowPlaceOrder" data-i18n="wfPlaceOrder">Place sample order</button>
-            <small id="workflowOrderSafety" data-i18n="wfNoPayment">Nothing here takes a real payment.</small>
-          </article>
-          <div class="wf-transfer" id="workflowOrderTransfer" aria-hidden="true"><span>→</span></div>
-          <article class="wf-card wf-order-preview">
-            <span class="wf-card-kicker" data-i18n="wfOrderPreviewKicker">ORDER PREVIEW</span><h3 id="workflowOrderTitle" data-i18n="wfOrderPreviewTitle">Order preview</h3><span class="wf-status" id="workflowPaidBadge" data-i18n="wfWaiting">Waiting</span>
-            <dl><div><dt data-i18n="wfPaymentRow">Payment</dt><dd id="workflowPaymentValue">—</dd></div><div><dt data-i18n="wfStockRow">Stock</dt><dd id="workflowStockValue">18</dd></div><div><dt data-i18n="wfNextActionRow">Next action</dt><dd id="workflowNextActionValue" data-i18n="wfPlaceOrderFirst">Place sample order</dd></div></dl>
-            <details class="wf-cod-note"><summary data-i18n="wfCodSummary">What about cash on delivery?</summary><p data-i18n="wfCodCopy">This example uses a paid bKash order. Cash-on-delivery payments remain unpaid until collection or settlement is recorded.</p></details>
-          </article>
-        </section>
-
-        <section class="workflow-scene" data-wf-scene="2" hidden>
-          <article class="wf-card wf-delivery-order">
-            <span class="wf-card-kicker" data-i18n="wfDeliveryOrderKicker">ORDER #1051</span><h3 data-i18n="wfDeliveryOrderTitle">Your order is ready to move</h3>
-            <div class="wf-product-row compact"><div class="flat-product flat-tee" aria-hidden="true"><i></i><b></b></div><span><b>Studio Tee</b><small>Black / M · Qty 1</small></span><strong>৳1,490</strong></div>
-            <dl><div><dt data-i18n="wfPaymentRow">Payment</dt><dd id="workflowDeliveryPayment">Paid · bKash</dd></div><div><dt data-i18n="wfStockRow">Stock</dt><dd id="workflowDeliveryStock">17 remaining</dd></div></dl>
-            <small id="workflowPrefillNote" hidden data-i18n="wfPrefillNote">A sample order is prefilled so you can explore delivery.</small>
-          </article>
-          <div class="wf-transfer" id="workflowDeliveryTransfer" aria-hidden="true"><span>→</span></div>
-          <article class="wf-card wf-delivery-action">
-            <span class="wf-card-kicker" data-i18n="wfDeliveryKicker">DELIVERY DEMO</span><h3 data-i18n="wfDeliveryTitle">Prepare the next step</h3>
-            <p data-i18n="wfDeliveryHelp">This illustrates booking with a connected Pathao merchant account.</p>
-            <div class="wf-delivery-status"><span data-i18n="wfCourier">Courier</span><b>Pathao</b><small id="workflowDeliveryRef">—</small></div>
-            <button type="button" class="wf-primary-action" id="workflowPrepareDelivery" data-i18n="wfPrepareDelivery">Prepare sample delivery</button>
-            <strong class="wf-terminal" id="workflowTerminalStatus" data-i18n="wfReadyPrepare">Ready to prepare</strong><small id="workflowPickupNote" data-i18n="wfBookingSimulated">Booking is simulated. Pickup has not happened.</small>
-          </article>
-        </section>
-
-        <p class="workflow-caption" id="workflowCaption" aria-live="polite" data-i18n="wfCaption1">Change your headline and brand color. The storefront updates as you edit.</p>
-      </div>
-      <div class="workflow-footer">
-        <button type="button" class="wf-replay" id="workflowReplay" data-i18n="wfReplay">Replay</button><button type="button" class="wf-reset-all" id="workflowResetAll" data-i18n="wfResetAll">Reset all demo changes</button>
-        <button type="button" class="wf-back" id="workflowBack" data-i18n="wfBack">Back</button>
-        <span id="workflowStepLabel">Step 1 of 3</span>
-        <button type="button" class="wf-next" id="workflowNext"><span data-i18n="wfNextOrders">Next: customer orders</span> →</button>
-      </div>
-    </div>
-    <p class="workflow-safe-note" data-i18n="wfSafeNote">Explore any step. Nothing here creates a real order or changes your store.</p>
-
-    <details class="full-editor-disclosure" id="fullEditorDisclosure">
-      <summary data-i18n="wfExploreEditor">Explore full editor</summary>
-      <div class="full-editor-wrap"><article class="product-story-card editor-story full-editor-card" id="fullEditorCard" data-spotlight>
+    <section class="product-chapter chapter-build" id="chapter-build" aria-labelledby="chapter-build-title">
+      <header class="chapter-heading">
+        <span>01</span><div><p class="mini-label" data-i18n="chapterBuild">BUILD</p><h3 id="chapter-build-title" data-i18n="chapterBuildTitle">Build the storefront in the full editor.</h3><p data-i18n="chapterBuildLead">Edit text, drag content, recolor sections and reorder all eleven storefront blocks. Your changes stay intact while you continue through Sell and Manage.</p></div>
+      </header>
+      <article class="product-story-card editor-story chapter-demo-card" id="editorStoryPanel" data-spotlight>
       <div class="story-card-head">
-        <div><span class="mini-label" data-i18n="builderLabel">FULL STOREFRONT EDITOR</span><h3 data-i18n="builderTitle">Explore the full storefront editor.</h3><p data-i18n="builderCopy">Edit text, color, alignment and section order using the same interactive editor.</p></div>
-        <div class="story-card-note editor-interaction-cue"><i></i><span data-i18n="builderHint">Keyboard reorder remains available with Alt + ↑ / ↓.</span></div>
+        <div><span class="mini-label" data-i18n="builderLabel">01 · STOREFRONT EDITOR</span><h3 data-i18n="builderTitle">Make the storefront feel like your business.</h3><p data-i18n="builderCopy">Change the headline, color or section order and watch the storefront update immediately.</p></div>
+        <div class="story-card-note editor-interaction-cue"><i></i><span data-i18n="builderHint">Try one clear change: edit the headline or move a section.</span></div>
       </div>
 
       <div class="product-shot ui-shot builder-ui editor-demo" id="editorDemo">
@@ -365,9 +307,93 @@
           <div class="editor-help"><i></i><span data-i18n="editorHelp">Select any text line to rewrite it. Drag the handle to move the whole content group.</span></div>
         </aside>
       </div>
-    </article></div>
-    </details>
-    <noscript><div class="workflow-noscript"><b>Three-step sample workflow:</b> customize a sample storefront, place a sample order, then prepare a sample Pathao delivery. No real payment, order or courier booking is created.</div></noscript>
+    </article>
+      <div class="chapter-next"><span data-i18n="chapterEditsPersist">Your storefront edits stay exactly where you leave them.</span><a href="#chapter-sell"><span data-i18n="nextSell">Next: Sell</span> →</a></div>
+    </section>
+
+    <section class="product-chapter chapter-sell" id="chapter-sell" aria-labelledby="chapter-sell-title">
+      <header class="chapter-heading">
+        <span>02</span><div><p class="mini-label" data-i18n="chapterSell">SELL</p><h3 id="chapter-sell-title" data-i18n="chapterSellTitle">Watch the original animated order workflow.</h3><p data-i18n="chapterSellLead">Run or replay the full EZComo sequence for Studio Tee order #1051: payment, order, Pathao booking, pickup, inventory and estimated margin.</p></div>
+      </header>
+      <article class="product-story-card workflow-story chapter-demo-card" id="orderWorkflowCard" data-spotlight>
+      <div class="workflow-head">
+        <div><span class="mini-label" data-i18n="workflowLabel">02 · SELL · ORIGINAL ORDER WORKFLOW</span><h3 data-i18n="workflowTitle">Watch the same Studio Tee sale move through the full workflow.</h3><p data-i18n="workflowCopy">Order #1051 moves through payment, order creation, Pathao booking, pickup, stock and estimated margin—using the original EZComo workflow animation.</p></div>
+        <button type="button" class="workflow-run" id="workflowRun"><span class="run-dot"></span><span data-i18n="workflowRun">Run order workflow</span></button>
+      </div>
+      <div class="workflow-demo" id="workflowDemo">
+        <div class="workflow-checkout">
+          <div class="checkout-top"><span>CUSTOMER CHECKOUT</span><i></i></div>
+          <div class="checkout-product"><div class="flat-product flat-tee workflow-product" aria-hidden="true"><i></i><b></b></div><div><strong>Studio Tee</strong><small>Black · M · Qty 1</small><span>৳1,490</span></div></div>
+          <div class="checkout-total"><span>Total</span><strong>৳1,490</strong></div>
+          <button type="button" class="place-order-btn" id="placeOrderDemo"><span data-i18n="placeOrder">Place order</span><i class="auto-cursor">↖</i></button>
+          <small class="workflow-disclaimer" data-i18n="workflowDisclaimer">Illustrative demo data</small><small class="workflow-cod-note" data-i18n="workflowCodNote">This run shows paid bKash. COD stays unpaid until collection/settlement.</small>
+        </div>
+        <div class="workflow-runner">
+          <div class="runner-top"><span data-i18n="automationRunner">AUTOMATION RUNNER</span><div><i></i><b id="workflowStatus">Waiting</b></div></div>
+          <div class="workflow-now" id="workflowNowPanel"><small data-i18n="workflowNowLabel">NOW HAPPENING</small><strong id="workflowNow" data-i18n="workflowNowReady">Ready to run the order.</strong></div>
+          <div class="workflow-steps">
+            <div class="workflow-step" data-step="payment"><span class="step-icon">৳</span><div><small data-i18n="stepPayment">PAYMENT</small><strong data-i18n="stepPaymentTitle">Payment received</strong></div><em>৳1,490</em></div>
+            <div class="workflow-step" data-step="order"><span class="step-icon">#</span><div><small data-i18n="stepOrder">ORDER</small><strong data-i18n="stepOrderTitle">Order received</strong></div><em>#1051</em></div>
+            <div class="workflow-step workflow-action-step" data-step="courier"><span class="step-icon">→</span><div><small data-i18n="stepCourier">FULFILMENT</small><strong data-i18n="stepCourierTitle">Book courier</strong></div><button type="button" class="courier-action" id="courierAction"><span data-i18n="bookCourier">Book courier</span><i class="action-cursor">↖</i></button></div>
+            <div class="workflow-step" data-step="booked"><span class="step-icon">✓</span><div><small>PATHAO</small><strong data-i18n="stepBookedTitle">Courier booked</strong></div><em>PX-84721</em></div>
+            <div class="workflow-step" data-step="pickup"><span class="step-icon">↑</span><div><small data-i18n="stepPickup">PICKUP</small><strong data-i18n="stepPickupTitle">Courier picked up</strong></div><em data-i18n="collected">Collected</em></div>
+            <div class="workflow-step" data-step="inventory"><span class="step-icon">▦</span><div><small data-i18n="stepInventory">INVENTORY</small><strong data-i18n="stepInventoryTitle">Stock updated</strong></div><em><s>18</s> → 17</em></div>
+            <div class="workflow-step" data-step="profit"><span class="step-icon">↗</span><div><small data-i18n="stepProfit">EST. MARGIN</small><strong data-i18n="stepProfitTitle">Estimated margin</strong></div><em>+৳690</em></div>
+          </div>
+          <div class="workflow-result" id="workflowResult"><span class="pulse-dot"></span><strong data-i18n="workflowResult">Order #1051 is fully recorded in the workspace.</strong><small data-i18n="workflowResultNote">Payment, Pathao booking, pickup, stock and estimated margin stay visible for the same sample order.</small></div>
+        </div>
+      </div>
+    </article>
+      <div class="chapter-next"><span data-i18n="chapterWorkflowNote">The Manage workspace below updates from this same sample order.</span><a href="#chapter-manage"><span data-i18n="nextManage">Next: Manage</span> →</a></div>
+    </section>
+
+    <section class="product-chapter chapter-manage" id="chapter-manage" aria-labelledby="chapter-manage-title">
+      <header class="chapter-heading">
+        <span>03</span><div><p class="mini-label" data-i18n="chapterManage">MANAGE</p><h3 id="chapter-manage-title" data-i18n="chapterManageTitle">Keep the order visible after checkout.</h3><p data-i18n="chapterManageLead">Open #1051 and see the same payment, courier, pickup, stock and estimated margin states reflected in the merchant workspace.</p></div>
+      </header>
+      <article class="product-story-card workspace-story chapter-demo-card" id="merchantWorkspace" data-spotlight>
+      <div class="story-card-head">
+        <div><span class="mini-label" data-i18n="workspaceLabel">03 · MANAGE · MERCHANT WORKSPACE</span><h3 data-i18n="workspaceTitle">Manage the same order from one workspace.</h3><p data-i18n="workspaceCopy">Open Studio Tee order #1051 and inspect the payment, Pathao booking, pickup, stock and estimated margin produced by the Sell chapter.</p></div>
+        <div class="story-card-note"><i></i><span data-i18n="workspaceHint">Interactive demo · sample data · synced with order #1051</span></div>
+      </div>
+      <div class="workspace-demo workspace-journey" id="workspaceDemo">
+        <aside class="workspace-nav" aria-label="Workspace areas"><b>E</b><span class="active" data-i18n="workspaceOverview">Overview</span><span data-i18n="workspaceOrders">Orders</span><span data-i18n="workspaceProducts">Products</span><span data-i18n="workspacePayments">Payments</span><span data-i18n="workspaceDelivery">Delivery</span></aside>
+        <div class="workspace-main">
+          <div class="workspace-top">
+            <div><small data-i18n="workspaceToday">TODAY · SAMPLE WORKSPACE</small><strong id="workspaceGreeting" data-i18n="workspaceGreeting">Order #1051 is waiting for the Sell workflow.</strong></div>
+            <button type="button" id="workspaceOrdersBtn" data-i18n="workspaceNewOrder">Open order #1051</button>
+          </div>
+          <div class="workspace-metrics">
+            <article><span data-i18n="workspaceMetricOrders">Order</span><b>#1051</b><small>Studio Tee · Black · M</small></article>
+            <article><span data-i18n="workspaceMetricPayments">Payment</span><b id="workspacePaymentMetric">Waiting</b><small>bKash · ৳1,490</small></article>
+            <article><span data-i18n="workspaceMetricStock">Stock</span><b id="workspaceStockMetric">18</b><small data-i18n="workspaceMetricStockNote">Studio Tee remaining</small></article>
+            <article><span data-i18n="workspaceMetricCourier">Delivery</span><b id="workspaceCourierMetric">Not booked</b><small>Pathao</small></article>
+          </div>
+          <div class="workspace-grid workspace-order-flow">
+            <div class="workspace-orders">
+              <div class="workspace-title"><b data-i18n="workspaceRecent">Order #1051</b><span id="workspaceSampleState" data-i18n="workspaceSample">sample order · waiting</span></div>
+              <button type="button" class="workspace-order-row active" id="workspaceOrderRow">
+                <span><b>Studio Tee</b><small>Black · M · Qty 1</small></span><strong>৳1,490</strong><em id="workspaceOrderState">Waiting</em>
+              </button>
+              <div class="workspace-order-detail" id="workspaceOrderDetail" hidden>
+                <div><span data-i18n="workspacePaymentLabel">Payment</span><b id="workspacePaymentDetail">Waiting · bKash</b><small>৳1,490</small></div>
+                <div><span data-i18n="workspaceStockLabel">Inventory</span><b id="workspaceStockDetail">18 in stock</b><small data-i18n="workspaceStockRecorded">Updates after the sample order</small></div>
+                <div><span data-i18n="workspaceDeliveryLabel">Delivery</span><b id="workspaceDeliveryState">Not booked</b><small id="workspaceCourierRef">—</small></div>
+                <div><span data-i18n="workspaceMarginLabel">Estimated margin</span><b id="workspaceMarginState">—</b><small data-i18n="workspaceMarginNote">Sample item cost assumed in demo</small></div>
+              </div>
+            </div>
+            <aside class="workspace-next">
+              <span class="mini-label" data-i18n="workspaceNext">SYNCED STORY</span>
+              <div class="workspace-next-primary"><i></i><b id="workspaceNextText" data-i18n="workspaceNextBook">Run the Sell workflow to populate this workspace.</b></div>
+              <a class="workspace-next-link" href="#chapter-sell" data-i18n="workspaceBackToSell">Replay the Sell workflow ↑</a>
+              <small id="workspaceNextNote" data-i18n="workspaceNextNote">The same sample order #1051 is used in both chapters.</small>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="chapter-next final"><span data-i18n="chapterManageDone">You have seen the storefront, the sale and the work behind it.</span><a href="#templates"><span data-i18n="nextStorefronts">Next: choose a storefront</span> →</a></div>
+    </section>
   </div>
 </section>
 
@@ -375,9 +401,9 @@
   <div class="shell">
     <div class="template-heading reveal">
       <div>
-        <p class="kicker" data-i18n="templatesKicker">Made for the way you sell</p>
-        <h2 data-i18n="templatesTitle">Choose a storefront that fits your business.</h2>
-        <p class="template-lede" data-i18n="templatesCopy">Explore different ways to present products, services and stays. Choose a starting point, then make it your own.</p>
+        <p class="kicker" data-i18n="templatesKicker">Choose a starting point</p>
+        <h2 data-i18n="templatesTitle">See what your business could look like online.</h2>
+        <p class="template-lede" data-i18n="templatesCopy">Choose a business type, explore its customer journey, then open a finished demo storefront.</p>
       </div>
       <div class="template-count"><span id="templateCount">01</span><i></i><span>04</span></div>
     </div>
@@ -475,7 +501,7 @@
     </div>
 
     <div class="template-outcomes reveal" aria-label="Finished storefront demos">
-      <div class="template-outcomes-head"><span class="mini-label" data-i18n="examplesKicker">EXAMPLE STORES · SAMPLE BUSINESSES</span><strong data-i18n="examplesTitle">See the finished customer experience.</strong></div>
+      <div class="template-outcomes-head"><span class="mini-label" data-i18n="examplesKicker">FINISHED DEMO STORES</span><strong data-i18n="examplesTitle">Open a complete example, not just a category photo.</strong></div>
       <div class="store-example-grid compact">
         <article class="store-example-card">
           <div class="storefront-shot storefront-shot-fashion">
@@ -514,8 +540,8 @@
   <div class="shell local-proof-layout">
     <div class="local-proof-copy reveal">
       <p class="kicker" data-i18n="localKicker">Built to sell here</p>
-      <h2 data-i18n="localTitle">Familiar payments. A clearer delivery workflow.</h2>
-      <p data-i18n="localCopy">Offer the options your customers recognize, and keep setup requirements clear before you start taking orders.</p>
+      <h2 data-i18n="localTitle">Local commerce should feel native, not patched together.</h2>
+      <p data-i18n="localCopy">EZComo is designed around the payment habits, delivery workflows and storefront expectations Bangladeshi merchants already work with.</p>
       <div class="local-principles">
         <div><span>01</span><b data-i18n="localPayTitle">Familiar checkout</b><small data-i18n="localPayCopy">bKash, Nagad and cash on delivery can appear in the storefront.</small></div>
         <div><span>02</span><b data-i18n="localDeliveryTitle">Delivery in the order flow</b><small data-i18n="localDeliveryCopy">Pathao merchant-API booking is available when configured.</small></div>
@@ -526,13 +552,13 @@
       <div class="connection-head"><div><span class="mini-label" data-i18n="connectionState">SETUP REQUIREMENTS</span><strong data-i18n="connectionTitle">Know what is supported and what needs merchant setup.</strong></div><span class="connection-live"><i></i><span data-i18n="connectionDemo">DEMO STATUS</span></span></div>
       <div class="connection-group">
         <span class="mini-label" data-i18n="payments">PAYMENTS</span>
-        <div class="connection-row active"><b>bKash</b><span data-i18n="autoConnected">Automated checkout when your merchant account is connected.</span><em data-i18n="supported">supported</em></div>
-        <div class="connection-row"><b>Nagad</b><span data-i18n="storeOption">A familiar checkout option for your customers.</span><em data-i18n="supported">supported</em></div>
-        <div class="connection-row"><b>COD</b><span data-i18n="codOption">Let customers pay on delivery.</span><em data-i18n="supported">supported</em></div>
+        <div class="connection-row active"><b>bKash</b><span data-i18n="autoConnected">Supported · connect merchant account</span><em data-i18n="supported">supported</em></div>
+        <div class="connection-row"><b>Nagad</b><span data-i18n="storeOption">Supported storefront checkout option</span><em data-i18n="supported">supported</em></div>
+        <div class="connection-row"><b>COD</b><span data-i18n="codOption">Supported · payment collected later</span><em data-i18n="supported">supported</em></div>
       </div>
       <div class="connection-group">
         <span class="mini-label" data-i18n="delivery">DELIVERY</span>
-        <div class="connection-row active"><b>Pathao</b><span data-i18n="merchantApi">Prepare courier bookings from the order workflow.</span><em data-i18n="setupRequired">setup required</em></div>
+        <div class="connection-row active"><b>Pathao</b><span data-i18n="merchantApi">Automated booking when configured</span><em data-i18n="setupRequired">setup required</em></div>
         <div class="connection-row setup"><b>Steadfast</b><span data-i18n="setupAvailable">Setup available</span><em data-i18n="setupRequired">setup required</em></div>
         <div class="connection-row setup"><b>REDX</b><span data-i18n="setupAvailable">Setup available</span><em data-i18n="setupRequired">setup required</em></div>
       </div>
@@ -547,16 +573,16 @@
 
 <section class="onboarding-strip" id="onboarding">
   <div class="shell onboarding-inner reveal">
-    <div><span class="mini-label" data-i18n="onboardKicker">FROM SIGNUP TO STOREFRONT</span><strong data-i18n="onboardTitle">A clear path to launch.</strong></div>
-    <ol><li><b>01</b><span><strong data-i18n="onboard1">Create your account</strong><small data-i18n="onboard1Copy">Start with a storefront direction.</small></span></li><li><b>02</b><span><strong data-i18n="onboard2">Add your products and brand</strong><small data-i18n="onboard2Copy">Bring in your content, prices and images.</small></span></li><li><b>03</b><span><strong data-i18n="onboard3">Set up payment and delivery</strong><small data-i18n="onboard3Copy">Connect the options your business needs.</small></span></li><li><b>04</b><span><strong data-i18n="onboard4">Publish your storefront</strong><small data-i18n="onboard4Copy">Review the customer experience, then share your link.</small></span></li></ol>
+    <div><span class="mini-label" data-i18n="onboardKicker">FROM SIGNUP TO LIVE</span><strong data-i18n="onboardTitle">Four practical steps to launch.</strong></div>
+    <ol><li><b>01</b><span data-i18n="onboard1">Create your account</span></li><li><b>02</b><span data-i18n="onboard2">Add products and brand details</span></li><li><b>03</b><span data-i18n="onboard3">Set up payment and delivery</span></li><li><b>04</b><span data-i18n="onboard4">Publish your storefront</span></li></ol>
   </div>
 </section>
 
 <section class="section pricing-section pricing-v7" id="pricing">
   <div class="shell">
     <div class="section-heading split reveal">
-      <div><p class="kicker" data-i18n="pricingKicker">Pricing</p><h2 data-i18n="pricingTitle">Start free. Add the tools your business needs.</h2></div>
-      <p data-i18n="pricingCopy">Choose a plan for the way you sell today. Review what is included before you upgrade.</p>
+      <div><p class="kicker" data-i18n="pricingKicker">Pricing</p><h2 data-i18n="pricingTitle">Start free. Choose the tools you need as you grow.</h2></div>
+      <p data-i18n="pricingCopy">Current plan prices and capabilities are summarized from the live EZComo plan catalog. External payment, courier, messaging and domain-provider charges remain separate where they apply.</p>
     </div>
     <div class="pricing-compare reveal">
       <article>
@@ -566,38 +592,30 @@
         <ul class="plan-features"><li data-i18n="freeFeature1">1 storefront</li><li data-i18n="freeFeature2">EZComo-managed store URL</li><li data-i18n="freeFeature3">No trial countdown</li></ul>
         <a class="btn btn-ghost plan-signup" data-plan-id="free" href="https://ezcomo.shop/signup?planId=free&template=fashion" data-i18n="startFree">Start free</a>
       </article>
-      <article>
+      <article class="featured">
         <span class="pricing-plan">BASIC</span><h3>Basic</h3>
         <p data-i18n="priceBasicNote">For one store that needs the core CMS, theme tools and manual or assisted payments.</p>
         <strong>৳499<small>/mo</small></strong>
-        <ul class="plan-features"><li data-i18n="basicFeature1">1 storefront</li><li data-i18n="basicFeature2">Core CMS blocks + theme tools</li><li data-i18n="basicFeature3">14-day trial</li></ul>
+        <ul class="plan-features"><li data-i18n="basicFeature1">1 storefront</li><li data-i18n="basicFeature2">Core CMS blocks + theme tools</li><li data-i18n="basicFeature3">14-day trial configured</li></ul>
         <a class="btn btn-primary plan-signup" data-plan-id="basic" href="https://ezcomo.shop/signup?planId=basic&template=fashion" data-i18n="chooseBasic">Choose Basic</a>
       </article>
       <article>
         <span class="pricing-plan">ADVANCED</span><h3>Advanced</h3>
         <p data-i18n="priceAdvancedNote">For growing teams running campaigns and richer storefront operations.</p>
         <strong>৳999<small>/mo</small></strong>
-        <ul class="plan-features"><li data-i18n="advancedFeature1">Up to 3 storefronts</li><li data-i18n="advancedFeature2">Campaigns, teams, coupons + reviews</li><li data-i18n="advancedFeature3">14-day trial</li></ul>
+        <ul class="plan-features"><li data-i18n="advancedFeature1">Up to 3 storefronts</li><li data-i18n="advancedFeature2">Campaigns, teams, coupons + reviews</li><li data-i18n="advancedFeature3">14-day trial configured</li></ul>
         <a class="btn btn-ghost plan-signup" data-plan-id="advanced" href="https://ezcomo.shop/signup?planId=advanced&template=fashion" data-i18n="chooseAdvanced">Choose Advanced</a>
       </article>
     </div>
-    <div class="pricing-fineprint reveal"><span data-i18n="pricingFineprint">Payment, courier, messaging and domain-provider charges may apply separately. Custom domains require an eligible plan and DNS verification.</span><a href="https://ezcomo.shop/plans"><span data-i18n="comparePlans">Compare full plan details</span> ↗</a></div>
+    <div class="pricing-fineprint reveal"><span data-i18n="pricingFineprint">Plan availability is checked at signup. Custom domains are available only on eligible paid plans and still require DNS setup and verification.</span><a href="https://ezcomo.shop/plans"><span data-i18n="comparePlans">Compare full plan details</span> ↗</a></div>
   </div>
 </section>
 
 <section class="section faq-section" id="faq">
   <div class="shell">
-    <div class="section-heading centered reveal"><p class="kicker">FAQ</p><h2 data-i18n="faqTitle">Before you start.</h2></div>
-    <div class="faq-accordion reveal">
-      <details><summary data-i18n="faqQ1">Can I start without coding?</summary><p data-i18n="faqA1">You can start from a template and edit your storefront visually. Payment, delivery and domain connections may require additional setup.</p></details>
-      <details><summary data-i18n="faqQ2">Can I use EZComo alongside Facebook or Instagram?</summary><p data-i18n="faqA2">Yes. Share your storefront link from your social channels so customers can browse products and place orders in one place.</p></details>
-      <details><summary data-i18n="faqQ3">Which payment options can I offer?</summary><p data-i18n="faqA3">EZComo supports local checkout options including bKash, Nagad and cash on delivery. Automated payment confirmation depends on the method and your account setup.</p></details>
-      <details><summary data-i18n="faqQ4">Can I book a courier from an order?</summary><p data-i18n="faqA4">The supported Pathao workflow can prepare bookings when your merchant connection is configured. Check the requirements for your chosen courier before relying on automation.</p></details>
-      <details><summary data-i18n="faqQ5">Can I use my own domain?</summary><p data-i18n="faqA5">Eligible plans support a custom domain after DNS setup and verification.</p></details>
-      <details><summary data-i18n="faqQ6">What happens after I choose a template?</summary><p data-i18n="faqA6">Your selected starting point is carried into signup. You can then add your brand and content using the tools included in your plan.</p></details>
-      <details><summary data-i18n="faqQ7">Are the stores and orders on this page real?</summary><p data-i18n="faqA7">The examples use sample businesses and sample data. The homepage walkthrough does not take payments, place real orders or book a courier.</p></details>
-      <details><summary data-i18n="faqQ8">How do I get help?</summary><p data-i18n="faqA8">Visit EZComo support for the current contact options and setup help.</p></details>
-    </div>
+    <div class="section-heading centered reveal"><p class="kicker">FAQ</p><h2 data-i18n="faqTitle">The questions that matter before you move beyond DMs.</h2></div>
+    <div class="faq-categories reveal" role="tablist" aria-label="FAQ categories"><button class="faq-tab active" role="tab" type="button" data-faq="start" data-i18n="faqStart" aria-selected="true" aria-controls="faqList">Getting started</button><button class="faq-tab" role="tab" type="button" data-faq="payments" data-i18n="faqPayments" aria-selected="false" aria-controls="faqList">Payments</button><button class="faq-tab" role="tab" type="button" data-faq="delivery" data-i18n="faqDelivery" aria-selected="false" aria-controls="faqList">Delivery</button><button class="faq-tab" role="tab" type="button" data-faq="domains" data-i18n="faqDomains" aria-selected="false" aria-controls="faqList">Domains</button></div>
+    <div class="faq-list reveal" id="faqList" role="tabpanel"></div>
     <div class="faq-help reveal"><span data-i18n="anotherQuestion">Have another question?</span><a href="https://ezcomo.shop/support"><span data-i18n="talkSupport">Talk to support</span> →</a></div>
   </div>
 </section>
@@ -605,8 +623,8 @@
 <section class="closing-section" id="closing">
   <div class="closing-ambient" aria-hidden="true"></div>
   <div class="shell closing-panel reveal">
-    <div><p class="kicker" data-i18n="closingKicker">Your next storefront</p><h2 data-i18n="closingTitle">Give your customers a place to shop. Give yourself a clearer way to run it.</h2><p data-i18n="closingCopy">Choose a starting point, make it yours and keep the work behind each sale together.</p></div>
-    <div class="closing-actions"><a class="btn btn-light btn-large" data-signup id="closingSignup" href="https://ezcomo.shop/signup?template=threads">Start with Threads</a><a href="#templates" class="closing-link"><span data-i18n="browseAgain">Explore storefront examples</span> ↑</a></div>
+    <div><p class="kicker" data-i18n="closingKicker">Your next storefront</p><h2 data-i18n="closingTitle">Let customers shop while you get back to running the business.</h2><p data-i18n="closingCopy">Pick a direction, start free and carry that storefront choice directly into setup.</p></div>
+    <div class="closing-actions"><a class="btn btn-light btn-large" data-signup id="closingSignup" href="https://ezcomo.shop/signup?template=threads">Start with Threads</a><a href="#templates" class="closing-link"><span data-i18n="browseAgain">Browse storefronts again</span> ↑</a></div>
   </div>
 </section>
 </main>
