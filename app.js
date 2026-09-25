@@ -200,6 +200,41 @@
     workspaceWaiting:'অপেক্ষায়',workspaceReceived:'রিসিভড',workspaceBooking:'বুক হচ্ছে…',workspaceBooked:'বুকড',workspacePickedUp:'পিকআপ হয়েছে',workspaceRecorded:'রেকর্ডেড',workspaceSynced:'#1051 অর্ডার synced',workspaceRunSell:'Workspace populate করতে Sell workflow চালান।'
   });
 
+  Object.assign(i18n.en,{
+    journeyKicker:'SEE EZCOMO IN ACTION',journeyTitle:'Build it. Sell it. Run it.',journeyLead:'Create your storefront, follow a customer order and manage what happens next—all connected through EZComo.',
+    journeyWatch:'Watch the full journey',journeyPause:'Pause journey',journeyResume:'Resume journey',journeyWatchAgain:'Watch again',journeyDuration:'About 45 seconds',journeyManual:'Try it yourself',
+    journeyBuild:'Build your store',journeyBuildCopy:'Shape your brand and storefront',journeySell:'Watch a sale happen',journeySellCopy:'Follow checkout into your business',journeyManage:'Manage the business',journeyManageCopy:'Know what needs your attention next',
+    journeySample:'Sample data',journeyBack:'Back',journeyNextSell:'Next: Watch a sale happen',journeyNextManage:'Next: Manage the business',journeyCreate:'Create your store →',
+    builderLabel:'01 · BUILD · FULL STOREFRONT EDITOR',builderTitle:'Your brand. Your layout. Your store.',builderCopy:'Edit the storefront directly, or watch EZComo put the pieces together.',builderHint:'Try changing the headline.',
+    builderHintUpdated:'Your storefront updates immediately.',builderHintReordered:'Arrange the page around what you want customers to see.',
+    workflowLabel:'02 · SELL · ORIGINAL ANIMATED ORDER WORKFLOW',workflowTitle:'One order. See what happens next.',workflowCopy:'Follow a sample sale from checkout into payment, stock and your workspace.',workflowRun:'▶ Run order workflow',placeOrder:'Place sample order',
+    workflowResult:'Order #1051 is ready in your workspace.',workflowResultNote:'Payment, stock and estimated item margin are recorded. Delivery is the next merchant action.',marginExplainer:'Sample selling price ৳1,490 − assumed item cost ৳800 = ৳690. Excludes delivery, payment fees, discounts, tax and overhead.',
+    workspaceLabel:'03 · MANAGE · MERCHANT WORKSPACE',workspaceTitle:'Know what needs your attention next.',workspaceCopy:'Check the order, review its payment and prepare delivery from your workspace.',workspaceHint:'Sample data · same order #1051',
+    workspaceGreeting:'Order #1051 is ready for review.',workspaceNewOrder:'Open order #1051',workspaceSample:'sample order · ready',workspaceReady:'Ready',workspaceNext:'NEXT ACTION',workspaceNextBook:'Prepare delivery for order #1051.',
+    workspacePrepareDelivery:'Prepare sample delivery',workspaceNextNote:'Sample booking. No courier request was sent.',workspaceDeliveryReady:'Ready to prepare',workspacePrepared:'Await courier pickup',workspaceCourierBooked:'Await courier pickup',
+    workspacePaymentLabel:'Payment',workspaceStockLabel:'Inventory',workspaceStockRecorded:'Stock updated from the sample order',workspaceDeliveryLabel:'Delivery',workspaceMarginLabel:'Estimated item margin',workspaceMarginNote:'Assumes sample item cost of ৳800; excludes fees and overhead.',
+    transitionToSell:'Your storefront is ready. Now follow a customer order.',transitionToManage:'The sale is recorded. Your next action is ready.',journeyFinal:'Your storefront, order and next action stay connected.',
+    workflowNowReady:'Ready to run the sample order.',workflowNowDone:'Order #1051 is ready in your workspace.',workflowWaiting:'Waiting',workflowRunning:'Running sample order…',workflowComplete:'Order ready',
+    stepProfit:'EST. ITEM MARGIN',stepProfitTitle:'Estimated item margin'
+  });
+  Object.assign(i18n.bn,{
+    journeyKicker:'EZCOMO কাজ করতে দেখুন',journeyTitle:'বানান। বিক্রি করুন। চালান।',journeyLead:'স্টোরফ্রন্ট বানান, একটি ক্রেতার অর্ডার অনুসরণ করুন, তারপর পরের কাজগুলো সামলান—সব EZComo-তে যুক্ত।',
+    journeyWatch:'পুরো journey দেখুন',journeyPause:'Journey pause করুন',journeyResume:'Journey আবার চালান',journeyWatchAgain:'আবার দেখুন',journeyDuration:'প্রায় ৪৫ সেকেন্ড',journeyManual:'নিজে চেষ্টা করুন',
+    journeyBuild:'স্টোর বানান',journeyBuildCopy:'ব্র্যান্ড ও storefront সাজান',journeySell:'একটি বিক্রি দেখুন',journeySellCopy:'Checkout থেকে business workflow দেখুন',journeyManage:'ব্যবসা সামলান',journeyManageCopy:'পরের কাজটি কী বুঝে নিন',
+    journeySample:'নমুনা ডেটা',journeyBack:'পেছনে',journeyNextSell:'পরের ধাপ: বিক্রি দেখুন',journeyNextManage:'পরের ধাপ: ব্যবসা সামলান',journeyCreate:'আপনার স্টোর তৈরি করুন →',
+    builderLabel:'০১ · BUILD · পূর্ণ STOREFRONT EDITOR',builderTitle:'আপনার ব্র্যান্ড। আপনার layout। আপনার store।',builderCopy:'Storefront সরাসরি edit করুন, অথবা EZComo কীভাবে সাজায় দেখুন।',builderHint:'Headline বদলে দেখুন।',
+    builderHintUpdated:'Storefront সঙ্গে সঙ্গে update হয়।',builderHintReordered:'ক্রেতাকে কী আগে দেখাতে চান, সেইভাবে page সাজান।',
+    workflowLabel:'০২ · SELL · মূল ANIMATED ORDER WORKFLOW',workflowTitle:'একটি অর্ডার। এরপর কী হয় দেখুন।',workflowCopy:'একটি sample sale checkout থেকে payment, stock ও workspace পর্যন্ত অনুসরণ করুন।',workflowRun:'▶ Order workflow চালান',placeOrder:'Sample order দিন',
+    workflowResult:'#1051 অর্ডার workspace-এ প্রস্তুত।',workflowResultNote:'Payment, stock ও estimated item margin রেকর্ড হয়েছে। Delivery এখন পরের merchant action।',marginExplainer:'নমুনা বিক্রয় মূল্য ৳১,৪৯০ − ধরা item cost ৳৮০০ = ৳৬৯০। Delivery, payment fee, discount, tax ও overhead অন্তর্ভুক্ত নয়।',
+    workspaceLabel:'০৩ · MANAGE · MERCHANT WORKSPACE',workspaceTitle:'এরপর কোন কাজটা দরকার, তা বুঝে নিন।',workspaceCopy:'অর্ডার দেখুন, payment যাচাই করুন এবং workspace থেকেই delivery প্রস্তুত করুন।',workspaceHint:'নমুনা ডেটা · একই #1051 অর্ডার',
+    workspaceGreeting:'#1051 অর্ডার review-এর জন্য প্রস্তুত।',workspaceNewOrder:'#1051 অর্ডার খুলুন',workspaceSample:'sample order · ready',workspaceReady:'প্রস্তুত',workspaceNext:'পরের কাজ',workspaceNextBook:'#1051 অর্ডারের delivery প্রস্তুত করুন।',
+    workspacePrepareDelivery:'Sample delivery প্রস্তুত করুন',workspaceNextNote:'নমুনা booking। কোনো courier request পাঠানো হয়নি।',workspaceDeliveryReady:'প্রস্তুত করার জন্য ready',workspacePrepared:'Courier pickup-এর অপেক্ষায়',workspaceCourierBooked:'Courier pickup-এর অপেক্ষায়',
+    workspacePaymentLabel:'পেমেন্ট',workspaceStockLabel:'স্টক',workspaceStockRecorded:'Sample order থেকে stock update হয়েছে',workspaceDeliveryLabel:'ডেলিভারি',workspaceMarginLabel:'আনুমানিক item margin',workspaceMarginNote:'নমুনা item cost ৳৮০০ ধরা হয়েছে; fee ও overhead বাদ।',
+    transitionToSell:'Storefront প্রস্তুত। এবার একটি customer order অনুসরণ করুন।',transitionToManage:'বিক্রিটি রেকর্ড হয়েছে। আপনার পরের কাজ প্রস্তুত।',journeyFinal:'আপনার storefront, order আর next action একই ধারায় থাকে।',
+    workflowNowReady:'Sample order চালানোর জন্য প্রস্তুত।',workflowNowDone:'#1051 অর্ডার workspace-এ প্রস্তুত।',workflowWaiting:'অপেক্ষায়',workflowRunning:'Sample order চলছে…',workflowComplete:'অর্ডার প্রস্তুত',
+    stepProfit:'আনুমানিক ITEM MARGIN',stepProfitTitle:'আনুমানিক item margin'
+  });
+
   const faq = {
     en:{
       start:[['Do I need to code?','No. Start from a complete storefront and use visual controls to shape the store.'],['What happens after Start free?','Create your account, name the store, choose its URL, confirm a storefront direction, complete setup, then continue into the merchant workspace.'],['Can I keep selling through social media?','Yes. Social channels can continue to drive discovery while EZComo gives customers a structured storefront and order path.']],
@@ -231,7 +266,7 @@
     if($('#heroStoreCta')) $('#heroStoreCta').textContent=lang==='bn'?(activeHeroData.bnCta||activeHeroData.cta):activeHeroData.cta;
     const heroSecondary=$('.storefront-cta-row span'); if(heroSecondary) heroSecondary.textContent=lang==='bn'?(activeHeroData.bnSecondary||activeHeroData.secondary):activeHeroData.secondary;
     if($('#heroFeaturedTitle')) $('#heroFeaturedTitle').textContent=lang==='bn'?(activeHeroData.bnFeatured||activeHeroData.featured):activeHeroData.featured;
-    window.__syncEditor?.(); window.__syncWorkflowLanguage?.();
+    window.__syncEditor?.(); window.__syncWorkflowLanguage?.(); window.__syncJourneyLanguage?.();
   }
 
   function updateSignup(){
@@ -419,26 +454,6 @@
       toggleTheme();reactLamp();settleLamp(document.documentElement.dataset.theme==='light'?1.15:-1.15);
     });
   }
-
-  const chapterLinks=$$('.chapter-link');
-  const chapterSections=$$('.product-chapter');
-  const markChapter=id=>{
-    chapterLinks.forEach(link=>{
-      const active=link.getAttribute('href')==='#'+id;
-      link.classList.toggle('active',active);
-      if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
-    });
-  };
-  chapterLinks.forEach(link=>link.addEventListener('click',()=>markChapter(link.getAttribute('href').slice(1))));
-  if('IntersectionObserver' in window&&chapterSections.length){
-    const chapterObserver=new IntersectionObserver(entries=>{
-      const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
-      if(visible)markChapter(visible.target.id);
-    },{threshold:[.18,.35,.55],rootMargin:'-18% 0px -55% 0px'});
-    chapterSections.forEach(section=>chapterObserver.observe(section));
-  }
-  markChapter('chapter-build');
-
 
   const wireTabKeyboard=(selector,activate)=>{
     const items=$$(selector);
@@ -703,18 +718,304 @@
     selectLayer(selectedLayer,selectedText);
   }
 
-  // Commerce workflow proof: original V4 animation, auto-runs once on view and is replayable.
+  // Connected Build → Sell → Manage walkthrough. Existing editor stays intact; this controller only coordinates scenes.
+  const journeyShell=$('#features');
+  const journeyStage=$('#journeyStage');
+  const journeyFrame=$('#journeyFrame');
+  const journeyPlay=$('#journeyPlay');
+  const journeyPlayLabel=$('#journeyPlayLabel');
+  const journeyManual=$('#journeyManual');
+  const journeyBack=$('#journeyBack');
+  const journeyNext=$('#journeyNext');
+  const journeyNextLabel=$('#journeyNextLabel');
+  const journeyStep=$('#journeyStep');
+  const journeyNextDescription=$('#journeyNextDescription');
+  const journeySceneName=$('#journeySceneName');
+  const journeyCaption=$('#journeyTransitionCaption');
+  const journeyLive=$('#journeyLive');
+  const journeyChapters=$$('.journey-chapter');
+  const journeyScenes=$$('[data-journey-scene]');
+  const journeyOrder=['build','sell','manage'];
+  const reduceJourneyMotion=()=>matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+  const JOURNEY_CANCELLED=Symbol('journey-cancelled');
+
+  const sampleOrder={
+    id:'#1051',store:'THREADS',product:'Studio Tee',variant:'Black / M',quantity:1,price:1490,
+    initialStock:18,remainingStock:17,paymentMethod:'bKash',paymentStatus:'waiting',
+    orderStatus:'waiting',inventoryStatus:'waiting',marginStatus:'waiting',assumedItemCost:800,estimatedItemMargin:690
+  };
+  const sampleDelivery={status:'not-prepared',reference:null};
+
+  const journeyState={
+    mode:'manual',playback:'idle',chapter:'build',transition:null,token:0,
+    editorDraft:null,presentationDraft:null,transitionAnimation:null,transitionProxy:null,
+    pauseReason:null
+  };
+
+  const announceJourney=message=>{
+    if(!journeyLive)return;
+    journeyLive.textContent='';
+    requestAnimationFrame(()=>journeyLive.textContent=message);
+  };
+
+  const captureEditorDraft=()=>{
+    if(!editor)return null;
+    const palette=$('.editor-palette',editor),canvas=$('#editorCanvas');
+    return {
+      texts:$$('.editable-text',editor).map(el=>el.textContent||''),
+      layers:$$('.editable-layer',editor).map(el=>({
+        left:el.style.left,top:el.style.top,transform:el.style.transform,dx:el.dataset.dx||'0',dy:el.dataset.dy||'0',align:el.dataset.align||'left'
+      })),
+      sections:$$('.editor-section',editor).map(el=>({id:el.id,background:el.style.background,color:el.style.color})),
+      order:$$('.editor-block-btn',palette).map(btn=>btn.dataset.editorTarget),
+      scrollTop:canvas?.scrollTop||0
+    };
+  };
+
+  const restoreEditorDraft=draft=>{
+    if(!draft||!editor)return;
+    const palette=$('.editor-palette',editor),canvas=$('#editorCanvas'),tip=$('.editor-palette-tip',palette);
+    $$('.editable-text',editor).forEach((el,i)=>{if(draft.texts[i]!==undefined)el.textContent=draft.texts[i]});
+    $$('.editable-layer',editor).forEach((el,i)=>{
+      const d=draft.layers[i];if(!d)return;
+      el.style.left=d.left;el.style.top=d.top;el.style.transform=d.transform;
+      el.dataset.dx=d.dx;el.dataset.dy=d.dy;el.dataset.align=d.align;
+      const body=$('.editable-group-body',el);
+      if(body){body.style.textAlign=d.align;body.style.alignItems=d.align==='center'?'center':d.align==='right'?'flex-end':'flex-start';}
+    });
+    draft.sections.forEach(d=>{
+      const section=document.getElementById(d.id);if(!section)return;
+      section.style.background=d.background;section.style.color=d.color;
+    });
+    draft.order.forEach(id=>{
+      const btn=$('.editor-block-btn[data-editor-target="'+id+'"]',palette);
+      const section=document.getElementById(id);
+      if(btn&&tip)palette.insertBefore(btn,tip);
+      if(section&&canvas)canvas.appendChild(section);
+    });
+    $$('.editor-block-btn',palette).forEach((btn,i)=>{const n=$('b',btn);if(n)n.textContent=String(i+1).padStart(2,'0')});
+    if(canvas)canvas.scrollTop=draft.scrollTop||0;
+    const input=$('#editorTextInput');const active=$('.editable-layer.selected .editable-text',editor)||$('.editable-title',$('[data-editable="heroTitle"]',editor));
+    if(input&&active)input.value=active.textContent||'';
+    window.__syncEditor?.();
+  };
+
+  const setEditorHint=key=>{
+    const hint=$('.editor-interaction-cue span',editor?.closest('.editor-story')||document);
+    if(hint)hint.textContent=i18n[lang]?.[key]||key;
+  };
+
+  const clearGuidedEditorEffects=()=>{
+    editor?.classList.remove('guided-editor-running');
+    $('.guided-editor-focus',editor||document)?.classList.remove('guided-editor-focus');
+    $('.guided-swatch-focus',editor||document)?.classList.remove('guided-swatch-focus');
+    $('.guided-reorder-focus',editor||document)?.classList.remove('guided-reorder-focus');
+  };
+
+  const setChapter=(chapter,{announce=true}={})=>{
+    if(!journeyOrder.includes(chapter))return;
+    journeyState.chapter=chapter;
+    journeyScenes.forEach(scene=>{
+      const active=scene.dataset.journeyScene===chapter;
+      scene.hidden=!active;
+      scene.setAttribute('aria-hidden',String(!active));
+      scene.classList.toggle('journey-scene-active',active);
+    });
+    journeyChapters.forEach(btn=>{
+      const active=btn.dataset.journeyChapter===chapter;
+      btn.classList.toggle('active',active);
+      btn.setAttribute('aria-selected',String(active));
+      btn.tabIndex=active?0:-1;
+    });
+    if(journeyFrame)journeyFrame.dataset.chapter=chapter;
+    if(journeySceneName)journeySceneName.textContent=chapter==='build'?(lang==='bn'?'Build':'Build'):chapter==='sell'?(lang==='bn'?'Sell':'Sell'):(lang==='bn'?'Manage':'Manage');
+    const index=journeyOrder.indexOf(chapter);
+    if(journeyStep)journeyStep.textContent=(lang==='bn'?'ধাপ ':'Step ')+(index+1)+' / 3';
+    if(journeyBack)journeyBack.disabled=index===0;
+    if(journeyNextLabel){
+      journeyNextLabel.textContent=index===0?(i18n[lang]?.journeyNextSell||'Next: Watch a sale happen'):
+        index===1?(i18n[lang]?.journeyNextManage||'Next: Manage the business'):(i18n[lang]?.journeyCreate||'Create your store →');
+    }
+    if(journeyNextDescription){
+      journeyNextDescription.textContent=index===0
+        ?(lang==='bn'?'পরের ধাপে #1051 sample order checkout থেকে business flow-এ যাবে।':'Next: follow order #1051 from checkout into the business.')
+        :index===1
+          ?(lang==='bn'?'পরের ধাপে একই অর্ডার workspace-এ খুলবে।':'Next: open the same order inside the merchant workspace.')
+          :(i18n[lang]?.journeyFinal||'Your storefront, order and next action stay connected.');
+    }
+    if(announce)announceJourney(
+      chapter==='build'?(i18n[lang]?.journeyBuild||'Build your store'):
+      chapter==='sell'?(i18n[lang]?.journeySell||'Watch a sale happen'):
+      (i18n[lang]?.journeyManage||'Manage the business')
+    );
+  };
+
+  const updateJourneyPlaybackUI=()=>{
+    if(!journeyPlayLabel)return;
+    const key=journeyState.playback==='playing'?'journeyPause':
+      journeyState.playback==='paused'?'journeyResume':
+      journeyState.playback==='complete'?'journeyWatchAgain':'journeyWatch';
+    journeyPlayLabel.textContent=i18n[lang]?.[key]||key;
+    journeyPlay?.classList.toggle('is-playing',journeyState.playback==='playing');
+    journeyPlay?.classList.toggle('is-paused',journeyState.playback==='paused');
+  };
+
+  const cancelTransition=()=>{
+    try{journeyState.transitionAnimation?.cancel?.()}catch{}
+    journeyState.transitionAnimation=null;
+    journeyState.transitionProxy?.remove?.();
+    journeyState.transitionProxy=null;
+    journeyState.transition=null;
+    if(journeyCaption){journeyCaption.hidden=true;journeyCaption.textContent='';}
+  };
+
+  const cancelGuidedJourney=({restoreDraft=true,keepPlayback='idle'}={})=>{
+    journeyState.token+=1;
+    cancelTransition();
+    cancelWorkflow();
+    clearGuidedEditorEffects();
+    if(restoreDraft&&journeyState.editorDraft){
+      restoreEditorDraft(journeyState.editorDraft);
+      journeyState.editorDraft=null;
+      journeyState.presentationDraft=null;
+    }
+    journeyState.mode='manual';
+    journeyState.playback=keepPlayback;
+    journeyState.pauseReason=null;
+    updateJourneyPlaybackUI();
+  };
+
+  const pauseJourney=reason=>{
+    if(journeyState.mode!=='guided'||journeyState.playback!=='playing')return;
+    journeyState.playback='paused';
+    journeyState.pauseReason=reason||'manual';
+    journeyState.transitionAnimation?.pause?.();
+    updateJourneyPlaybackUI();
+    announceJourney(i18n[lang]?.journeyPause||'Journey paused');
+  };
+  const resumeJourney=()=>{
+    if(journeyState.mode!=='guided'||journeyState.playback!=='paused')return;
+    journeyState.playback='playing';
+    journeyState.pauseReason=null;
+    journeyState.transitionAnimation?.play?.();
+    updateJourneyPlaybackUI();
+    announceJourney(i18n[lang]?.journeyResume||'Journey resumed');
+  };
+
+  const journeyWait=async(ms,token)=>{
+    let remaining=ms,last=performance.now();
+    while(remaining>0){
+      if(token!==journeyState.token)throw JOURNEY_CANCELLED;
+      if(journeyState.playback!=='playing'){
+        await sleep(80);last=performance.now();continue;
+      }
+      const chunk=Math.min(80,remaining);
+      await sleep(chunk);
+      const now=performance.now();
+      if(journeyState.playback==='playing')remaining-=Math.max(0,now-last);
+      last=now;
+    }
+  };
+
+  const showTransitionCaption=async(text,token,hold=700)=>{
+    if(!journeyCaption)return;
+    journeyCaption.textContent=text;
+    journeyCaption.hidden=false;
+    await journeyWait(hold,token);
+    if(token===journeyState.token)journeyCaption.hidden=true;
+  };
+
+  const animateSceneProxy=async({source,chapter,destination,caption,token})=>{
+    if(token!==journeyState.token)return;
+    const sourceRect=source?.getBoundingClientRect?.();
+    let proxy=null;
+    if(sourceRect&&sourceRect.width&&sourceRect.height&&!reduceJourneyMotion()){
+      proxy=source.cloneNode(true);
+      proxy.classList.add('journey-handoff-proxy');
+      proxy.setAttribute('aria-hidden','true');
+      Object.assign(proxy.style,{
+        position:'fixed',left:sourceRect.left+'px',top:sourceRect.top+'px',width:sourceRect.width+'px',height:sourceRect.height+'px',
+        margin:'0',zIndex:'9999',pointerEvents:'none',transformOrigin:'top left'
+      });
+      document.body.appendChild(proxy);
+      journeyState.transitionProxy=proxy;
+    }
+    journeyState.transition=chapter;
+    setChapter(chapter,{announce:false});
+    await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+    const destRect=destination?.().getBoundingClientRect?.();
+    if(proxy&&destRect&&destRect.width&&destRect.height){
+      const dx=destRect.left-sourceRect.left,dy=destRect.top-sourceRect.top,sx=destRect.width/sourceRect.width,sy=destRect.height/sourceRect.height;
+      const animation=proxy.animate([
+        {transform:'translate3d(0,0,0) scale(1,1)',opacity:1},
+        {transform:`translate3d(${dx}px,${dy}px,0) scale(${sx},${sy})`,opacity:.2}
+      ],{duration:850,easing:'cubic-bezier(.2,.8,.2,1)',fill:'forwards'});
+      journeyState.transitionAnimation=animation;
+      try{await animation.finished}catch{}
+      if(token!==journeyState.token){proxy.remove();throw JOURNEY_CANCELLED;}
+      proxy.remove();journeyState.transitionProxy=null;journeyState.transitionAnimation=null;
+    }
+    journeyState.transition=null;
+    await showTransitionCaption(caption,token,reduceJourneyMotion()?350:750);
+  };
+
+  const runGuidedEditor=async token=>{
+    if(!editor)return;
+    editor.classList.add('guided-editor-running');
+    setEditorHint('builderHint');
+    const heroLayer=$('[data-editable="heroTitle"]',editor);
+    const heroTitle=$('.editable-title',heroLayer);
+    heroLayer?.classList.add('guided-editor-focus');
+    await journeyWait(1600,token);
+    if(heroTitle){
+      heroTitle.textContent=lang==='bn'?'প্রতিদিনের স্টাইল, এবার একেবারে আপনার।':'Everyday style, unmistakably yours.';
+      const input=$('#editorTextInput');if(input)input.value=heroTitle.textContent;
+    }
+    setEditorHint('builderHintUpdated');
+    await journeyWait(2100,token);
+
+    const forestSwatch=$('.editor-swatches button[data-color="#33483d"]',editor);
+    forestSwatch?.classList.add('guided-swatch-focus');
+    const heroBlock=$('#heroBlock');
+    if(heroBlock){heroBlock.style.background='#33483d';heroBlock.style.color='#f3f8f5';}
+    await journeyWait(2100,token);
+    forestSwatch?.classList.remove('guided-swatch-focus');
+
+    const palette=$('.editor-palette',editor),canvas=$('#editorCanvas');
+    const productsBtn=$('.editor-block-btn[data-editor-target="productsBlock"]',palette);
+    const categoriesBtn=$('.editor-block-btn[data-editor-target="categoriesBlock"]',palette);
+    const products=$('#productsBlock'),categories=$('#categoriesBlock');
+    productsBtn?.classList.add('guided-reorder-focus');
+    if(productsBtn&&categoriesBtn)categoriesBtn.before(productsBtn);
+    if(products&&categories)categories.before(products);
+    $$('.editor-block-btn',palette).forEach((btn,i)=>{const n=$('b',btn);if(n)n.textContent=String(i+1).padStart(2,'0')});
+    setEditorHint('builderHintReordered');
+    await journeyWait(2100,token);
+    productsBtn?.classList.remove('guided-reorder-focus');
+
+    const tee=$('.editor-product-card .flat-tee',editor);
+    tee?.closest('.editor-product-card')?.classList.add('guided-product-focus');
+    await journeyWait(1900,token);
+    tee?.closest('.editor-product-card')?.classList.remove('guided-product-focus');
+    heroLayer?.classList.remove('guided-editor-focus');
+    editor.classList.remove('guided-editor-running');
+  };
+
   const workflowDemo=$('#workflowDemo');
   const workflowCard=$('#orderWorkflowCard');
   const workflowRun=$('#workflowRun');
   const placeOrderDemo=$('#placeOrderDemo');
   const workflowStatus=$('#workflowStatus');
   const workflowNow=$('#workflowNow');
+  const workflowSteps=['payment','order','inventory','profit'];
+  let workflowRunning=false,workflowRunToken=0,activeWorkflowStep=null;
 
-  // Manage chapter reflects the exact same sample order; it owns no second commerce state.
+  const workspaceDemo=$('#workspaceDemo');
   const workspaceOrdersBtn=$('#workspaceOrdersBtn');
   const workspaceOrderRow=$('#workspaceOrderRow');
   const workspaceOrderDetail=$('#workspaceOrderDetail');
+  const workspacePrepareDelivery=$('#workspacePrepareDelivery');
   const workspaceGreeting=$('#workspaceGreeting');
   const workspacePaymentMetric=$('#workspacePaymentMetric');
   const workspaceStockMetric=$('#workspaceStockMetric');
@@ -728,138 +1029,299 @@
   const workspaceMarginState=$('#workspaceMarginState');
   const workspaceNextText=$('#workspaceNextText');
   const workspaceNextNote=$('#workspaceNextNote');
-  const openWorkspaceOrder=()=>{
-    if(workspaceOrderDetail)workspaceOrderDetail.hidden=false;
-    workspaceOrderRow?.classList.add('open');
-  };
-  workspaceOrdersBtn?.addEventListener('click',openWorkspaceOrder);
-  workspaceOrderRow?.addEventListener('click',openWorkspaceOrder);
 
-  let activeWorkflowStep=null;
   const workflowNarration={
-    en:{payment:'Receiving customer payment…',order:'Creating order #1051 in the workspace…',courier:'Booking Pathao pickup…',booked:'Saving courier booking PX-84721…',pickup:'Tracking courier pickup…',inventory:'Reducing Studio Tee stock 18 → 17…',profit:'Calculating estimated item margin…'},
-    bn:{payment:'পেমেন্ট গ্রহণ করা হচ্ছে…',order:'ওয়ার্কস্পেসে #1051 অর্ডার তৈরি হচ্ছে…',courier:'Pathao-তে পিকআপ বুক করা হচ্ছে…',booked:'PX-84721 কুরিয়ার বুকিং সংরক্ষণ করা হচ্ছে…',pickup:'কুরিয়ারের পিকআপ ট্র্যাক করা হচ্ছে…',inventory:'Studio Tee-এর স্টক ১৮ থেকে ১৭ করা হচ্ছে…',profit:'আনুমানিক item margin হিসাব করা হচ্ছে…'}
-  };
-  const workflowStepDone=name=>$('.workflow-step[data-step="'+name+'"]',workflowDemo||document)?.classList.contains('done')||false;
-  const t=(key,fallback)=>i18n[lang]?.[key]||fallback;
-  const syncWorkspaceSnapshot=()=>{
-    const payment=workflowStepDone('payment');
-    const order=workflowStepDone('order');
-    const courier=workflowStepDone('courier');
-    const booked=workflowStepDone('booked');
-    const pickup=workflowStepDone('pickup');
-    const inventory=workflowStepDone('inventory');
-    const profit=workflowStepDone('profit');
-    const finished=workflowDemo?.classList.contains('finished');
-
-    if(workspacePaymentMetric)workspacePaymentMetric.textContent=payment?(lang==='bn'?'পেইড':'Paid'):t('workspaceWaiting','Waiting');
-    if(workspacePaymentDetail)workspacePaymentDetail.textContent=payment?(lang==='bn'?'পেইড · bKash':'Paid · bKash'):(lang==='bn'?'অপেক্ষায় · bKash':'Waiting · bKash');
-    if(workspaceStockMetric)workspaceStockMetric.textContent=inventory?'17':'18';
-    if(workspaceStockDetail)workspaceStockDetail.textContent=inventory?'18 → 17':(lang==='bn'?'18 in stock · অপেক্ষায়':'18 in stock · waiting');
-    if(workspaceOrderState)workspaceOrderState.textContent=pickup?t('workspacePickedUp','Picked up'):order?t('workspaceReceived','Received'):t('workspaceWaiting','Waiting');
-    if(workspaceCourierMetric)workspaceCourierMetric.textContent=pickup?t('workspacePickedUp','Picked up'):booked?t('workspaceBooked','Booked'):courier?t('workspaceBooking','Booking…'):(lang==='bn'?'বুক হয়নি':'Not booked');
-    if(workspaceDeliveryState)workspaceDeliveryState.textContent=pickup?(lang==='bn'?'Pathao pickup হয়েছে':'Pathao pickup collected'):booked?(lang==='bn'?'Pathao বুক হয়েছে':'Pathao booked'):(lang==='bn'?'বুক হয়নি':'Not booked');
-    if(workspaceCourierRef)workspaceCourierRef.textContent=booked?'PX-84721':'—';
-    if(workspaceMarginState)workspaceMarginState.textContent=profit?'+৳690':'—';
-    if(workspaceSampleState)workspaceSampleState.textContent=finished?t('workspaceSynced','Order #1051 synced'):(order?(lang==='bn'?'sample order · active':'sample order · active'):t('workspaceSample','sample order · waiting'));
-    if(workspaceGreeting)workspaceGreeting.textContent=finished?(lang==='bn'?'#1051 অর্ডারের সব state workspace-এ দৃশ্যমান।':'Order #1051 is fully visible in the workspace.'):(order?(lang==='bn'?'#1051 অর্ডার workflow-এর মধ্যে চলছে।':'Order #1051 is moving through the Sell workflow.'):t('workspaceGreeting','Order #1051 is waiting for the Sell workflow.'));
-    if(workspaceNextText)workspaceNextText.textContent=finished?(lang==='bn'?'Payment, pickup, stock আর margin একই অর্ডারে synced.':'Payment, pickup, stock and margin are synced to #1051.'):t('workspaceRunSell','Run the Sell workflow to populate this workspace.');
-    if(workspaceNextNote)workspaceNextNote.textContent=finished?(lang==='bn'?'Open order #1051 দিয়ে সব details দেখুন।':'Open order #1051 to inspect every recorded detail.'):t('workspaceNextNote','The same sample order #1051 is used in both chapters.');
+    en:{payment:'The sample payment is being confirmed…',order:'Order #1051 is appearing in your workspace…',inventory:'Studio Tee stock is updating from 18 to 17…',profit:'Calculating estimated item margin…'},
+    bn:{payment:'Sample payment confirm হচ্ছে…',order:'#1051 অর্ডার workspace-এ যোগ হচ্ছে…',inventory:'Studio Tee-এর stock ১৮ থেকে ১৭ হচ্ছে…',profit:'আনুমানিক item margin হিসাব হচ্ছে…'}
   };
 
   const syncWorkflowNow=()=>{
     if(!workflowNow)return;
-    if(activeWorkflowStep)workflowNow.textContent=workflowNarration[lang]?.[activeWorkflowStep]||workflowNarration.en[activeWorkflowStep];
-    else if(workflowDemo?.classList.contains('finished'))workflowNow.textContent=i18n[lang]?.workflowNowDone||'Order complete — all actions recorded.';
-    else workflowNow.textContent=i18n[lang]?.workflowNowReady||'Ready to run the order.';
+    workflowNow.textContent=activeWorkflowStep
+      ?(workflowNarration[lang]?.[activeWorkflowStep]||workflowNarration.en[activeWorkflowStep])
+      :workflowDemo?.classList.contains('finished')
+        ?(i18n[lang]?.workflowNowDone||'Order #1051 is ready in your workspace.')
+        :(i18n[lang]?.workflowNowReady||'Ready to run the sample order.');
   };
-  let workflowRunning=false,workflowPlayed=false,workflowTimers=[];
-  const workflowOrder=['payment','order','courier','booked','pickup','inventory','profit'];
-  const clearWorkflowTimers=()=>{workflowTimers.forEach(clearTimeout);workflowTimers=[]};
   const setWorkflowStatus=key=>{if(workflowStatus)workflowStatus.textContent=i18n[lang]?.[key]||key};
-  const resetWorkflow=()=>{
-    clearWorkflowTimers();
-    workflowRunning=false;
-    workflowDemo?.classList.remove('running','courier-click','finished');
-    activeWorkflowStep=null;
-    $$('.workflow-step',workflowDemo||document).forEach(step=>{step.classList.remove('active','done','just-completed');step.style.removeProperty('--workflow-hold');});
-    if(workflowRun)workflowRun.disabled=false;
-    setWorkflowStatus('workflowWaiting');
-    syncWorkflowNow();
-    syncWorkspaceSnapshot();
+
+  const syncWorkspace=()=>{
+    const paymentReady=sampleOrder.paymentStatus==='paid';
+    const orderReady=sampleOrder.orderStatus==='ready';
+    const inventoryReady=sampleOrder.inventoryStatus==='updated';
+    const marginReady=sampleOrder.marginStatus==='estimated';
+    if(workspacePaymentMetric)workspacePaymentMetric.textContent=paymentReady?(lang==='bn'?'পেইড':'Paid'):(lang==='bn'?'অপেক্ষায়':'Waiting');
+    if(workspacePaymentDetail)workspacePaymentDetail.textContent=paymentReady?(lang==='bn'?'পেইড · bKash':'Paid · bKash'):(lang==='bn'?'অপেক্ষায় · bKash':'Waiting · bKash');
+    if(workspaceStockMetric)workspaceStockMetric.textContent=String(inventoryReady?sampleOrder.remainingStock:sampleOrder.initialStock);
+    if(workspaceStockDetail)workspaceStockDetail.textContent=inventoryReady?sampleOrder.initialStock+' → '+sampleOrder.remainingStock:(lang==='bn'?'18 in stock · অপেক্ষায়':'18 in stock · waiting');
+    if(workspaceMarginState)workspaceMarginState.textContent=marginReady?'+৳'+sampleOrder.estimatedItemMargin:'—';
+    if(workspaceOrderState)workspaceOrderState.textContent=sampleDelivery.status==='await-pickup'
+      ?(i18n[lang]?.workspacePrepared||'Await courier pickup')
+      :orderReady?(i18n[lang]?.workspaceReady||'Ready'):(lang==='bn'?'অপেক্ষায়':'Waiting');
+    if(workspaceCourierMetric)workspaceCourierMetric.textContent=sampleDelivery.status==='await-pickup'
+      ?(i18n[lang]?.workspacePrepared||'Await courier pickup')
+      :orderReady?(i18n[lang]?.workspaceReady||'Ready'):(lang==='bn'?'অপেক্ষায়':'Waiting');
+    if(workspaceDeliveryState)workspaceDeliveryState.textContent=sampleDelivery.status==='await-pickup'
+      ?(i18n[lang]?.workspacePrepared||'Await courier pickup')
+      :(i18n[lang]?.workspaceDeliveryReady||'Ready to prepare');
+    if(workspaceCourierRef)workspaceCourierRef.textContent=sampleDelivery.reference|| (lang==='bn'?'কোনো request পাঠানো হয়নি':'No request sent');
+    if(workspaceSampleState)workspaceSampleState.textContent=orderReady?(i18n[lang]?.workspaceSample||'sample order · ready'):(lang==='bn'?'sample order · waiting':'sample order · waiting');
+    if(workspaceGreeting)workspaceGreeting.textContent=orderReady?(i18n[lang]?.workspaceGreeting||'Order #1051 is ready for review.'):(lang==='bn'?'#1051 sample order Sell ধাপের অপেক্ষায়।':'Order #1051 is waiting for the Sell step.');
+    if(workspaceNextText)workspaceNextText.textContent=sampleDelivery.status==='await-pickup'
+      ?(i18n[lang]?.workspacePrepared||'Await courier pickup')
+      :orderReady?(i18n[lang]?.workspaceNextBook||'Prepare delivery for order #1051.'):(lang==='bn'?'আগে Sell ধাপের sample order চালান।':'Run the Sell sample order first.');
+    if(workspaceNextNote)workspaceNextNote.textContent=sampleDelivery.status==='await-pickup'
+      ?(lang==='bn'?'Sample booking। কোনো courier request পাঠানো হয়নি।':'Sample booking. No courier request was sent.')
+      :(i18n[lang]?.workspaceNextNote||'Sample booking. No courier request was sent.');
+    if(workspacePrepareDelivery){
+      workspacePrepareDelivery.disabled=!orderReady||sampleDelivery.status==='await-pickup';
+      workspacePrepareDelivery.textContent=sampleDelivery.status==='await-pickup'
+        ?(i18n[lang]?.workspacePrepared||'Await courier pickup')
+        :(i18n[lang]?.workspacePrepareDelivery||'Prepare sample delivery');
+    }
   };
+
+  const resetSampleOrder=()=>{
+    sampleOrder.paymentStatus='waiting';sampleOrder.orderStatus='waiting';sampleOrder.inventoryStatus='waiting';sampleOrder.marginStatus='waiting';
+    sampleDelivery.status='not-prepared';sampleDelivery.reference=null;
+    if(workspaceOrderDetail)workspaceOrderDetail.hidden=true;
+    workspaceOrderRow?.classList.remove('open','handoff-arrived');
+    syncWorkspace();
+  };
+
+  const ensureOrderReady=()=>{
+    sampleOrder.paymentStatus='paid';sampleOrder.orderStatus='ready';sampleOrder.inventoryStatus='updated';sampleOrder.marginStatus='estimated';
+    syncWorkspace();
+  };
+
+  const resetWorkflowVisual=({resetOrder=true}={})=>{
+    workflowRunToken+=1;workflowRunning=false;activeWorkflowStep=null;
+    workflowDemo?.classList.remove('running','finished','courier-click');
+    $$('.workflow-step',workflowDemo||document).forEach(step=>{
+      step.classList.remove('active','done','just-completed');step.style.removeProperty('--workflow-hold');
+    });
+    if(workflowRun)workflowRun.disabled=false;
+    if(placeOrderDemo)placeOrderDemo.disabled=false;
+    setWorkflowStatus('workflowWaiting');syncWorkflowNow();
+    if(resetOrder)resetSampleOrder();
+  };
+  function cancelWorkflow(){workflowRunToken+=1;workflowRunning=false;if(workflowRun)workflowRun.disabled=false;if(placeOrderDemo)placeOrderDemo.disabled=false;}
+
+  const workflowDelay=async(ms,{guided=false,journeyToken=null,runToken})=>{
+    if(guided)return journeyWait(ms,journeyToken);
+    let remaining=ms;
+    while(remaining>0){
+      if(runToken!==workflowRunToken)throw JOURNEY_CANCELLED;
+      const chunk=Math.min(80,remaining);await sleep(chunk);remaining-=chunk;
+    }
+  };
+
   const activateWorkflowStep=(name,hold)=>{
-    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);
-    if(!step)return;
+    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);if(!step)return;
     if(hold)step.style.setProperty('--workflow-hold',hold+'ms');
-    activeWorkflowStep=name;
-    syncWorkflowNow();
-    step.classList.add('active');
-    syncWorkspaceSnapshot();
+    activeWorkflowStep=name;step.classList.add('active');syncWorkflowNow();
   };
   const completeWorkflowStep=name=>{
-    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);
-    if(!step)return;
-    step.classList.remove('active');
-    step.classList.add('done','just-completed');
-    syncWorkspaceSnapshot();
+    const step=$('.workflow-step[data-step="'+name+'"]',workflowDemo||document);if(!step)return;
+    step.classList.remove('active');step.classList.add('done','just-completed');
+    if(name==='payment')sampleOrder.paymentStatus='paid';
+    if(name==='order')sampleOrder.orderStatus='ready';
+    if(name==='inventory')sampleOrder.inventoryStatus='updated';
+    if(name==='profit')sampleOrder.marginStatus='estimated';
+    syncWorkspace();
     setTimeout(()=>step.classList.remove('just-completed'),500);
   };
-  const runWorkflow=()=>{
-    if(!workflowDemo||workflowRunning)return;
-    resetWorkflow();
-    workflowRunning=true;
-    workflowPlayed=true;
-    if(workflowRun)workflowRun.disabled=true;
-    workflowDemo.classList.add('running');
+
+  const runWorkflow=async({guided=false,journeyToken=null}={})=>{
+    if(!workflowDemo||workflowRunning)return false;
+    resetWorkflowVisual({resetOrder:true});
+    const runToken=workflowRunToken;
+    workflowRunning=true;workflowDemo.classList.add('running');
+    if(workflowRun)workflowRun.disabled=true;if(placeOrderDemo)placeOrderDemo.disabled=true;
     setWorkflowStatus('workflowRunning');
-    const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
-    const workflowTiming=reduced
-      ? {start:0,step:24,courier:48,gap:8,finish:40}
-      : {start:1600,step:3600,courier:5200,gap:800,finish:1200};
-    let time=workflowTiming.start;
-    workflowOrder.forEach(name=>{
-      const hold=name==='courier'?workflowTiming.courier:workflowTiming.step;
-      const gap=workflowTiming.gap;
-      workflowTimers.push(setTimeout(()=>{
-        if(name==='courier')workflowDemo.classList.add('courier-click');
-        activateWorkflowStep(name,hold);
-      },time));
-      workflowTimers.push(setTimeout(()=>{
+    const reduced=reduceJourneyMotion();
+    const timing=reduced
+      ?{start:0,hold:40,gap:10,finish:60}
+      :guided?{start:1000,hold:2200,gap:350,finish:900}:{start:1200,hold:3400,gap:650,finish:900};
+    try{
+      await workflowDelay(timing.start,{guided,journeyToken,runToken});
+      for(const name of workflowSteps){
+        if(runToken!==workflowRunToken)throw JOURNEY_CANCELLED;
+        activateWorkflowStep(name,timing.hold);
+        await workflowDelay(timing.hold,{guided,journeyToken,runToken});
         completeWorkflowStep(name);
-        if(name==='courier')workflowDemo.classList.remove('courier-click');
-      },time+hold));
-      time+=hold+gap;
-    });
-    workflowTimers.push(setTimeout(()=>{
-      workflowDemo.classList.add('finished');
-      activeWorkflowStep=null;
-      setWorkflowStatus('workflowComplete');
-      syncWorkflowNow();
-      workflowRunning=false;
-      if(workflowRun)workflowRun.disabled=false;
-      syncWorkspaceSnapshot();
-    },time+workflowTiming.finish));
-  };
-  workflowRun?.addEventListener('click',runWorkflow);
-  placeOrderDemo?.addEventListener('click',runWorkflow);
-  if(workflowCard){
-    const workflowObserver=new IntersectionObserver(entries=>{
-      if(entries.some(e=>e.isIntersecting)&&!workflowPlayed){
-        workflowTimers.push(setTimeout(runWorkflow,1200));
-        workflowObserver.disconnect();
+        await workflowDelay(timing.gap,{guided,journeyToken,runToken});
       }
-    },{threshold:.38});
-    workflowObserver.observe(workflowCard);
+      workflowDemo.classList.add('finished');activeWorkflowStep=null;workflowRunning=false;
+      setWorkflowStatus('workflowComplete');syncWorkflowNow();syncWorkspace();
+      if(workflowRun)workflowRun.disabled=false;if(placeOrderDemo)placeOrderDemo.disabled=false;
+      return true;
+    }catch(error){
+      workflowRunning=false;
+      if(workflowRun)workflowRun.disabled=false;if(placeOrderDemo)placeOrderDemo.disabled=false;
+      if(error!==JOURNEY_CANCELLED)throw error;
+      return false;
+    }
+  };
+
+  const openWorkspaceOrder=()=>{
+    ensureOrderReady();
+    if(workspaceOrderDetail)workspaceOrderDetail.hidden=false;
+    workspaceOrderRow?.classList.add('open');
+    announceJourney(lang==='bn'?'#1051 অর্ডারের details খোলা হয়েছে।':'Order #1051 details opened.');
+  };
+
+  const prepareSampleDelivery=()=>{
+    ensureOrderReady();
+    if(workspaceOrderDetail)workspaceOrderDetail.hidden=false;
+    workspaceOrderRow?.classList.add('open');
+    sampleDelivery.status='await-pickup';
+    sampleDelivery.reference='DEMO-PX-84721';
+    workspaceDemo?.classList.add('delivery-prepared');
+    syncWorkspace();
+    announceJourney(i18n[lang]?.workspacePrepared||'Await courier pickup');
+  };
+
+  workflowRun?.addEventListener('click',()=>runWorkflow({guided:false}));
+  placeOrderDemo?.addEventListener('click',()=>runWorkflow({guided:false}));
+  workspaceOrdersBtn?.addEventListener('click',openWorkspaceOrder);
+  workspaceOrderRow?.addEventListener('click',openWorkspaceOrder);
+  workspacePrepareDelivery?.addEventListener('click',prepareSampleDelivery);
+
+  const runGuidedWorkspace=async token=>{
+    ensureOrderReady();
+    workspaceOrderRow?.classList.add('handoff-arrived');
+    await journeyWait(1500,token);
+    openWorkspaceOrder();
+    $('#workspacePaymentMetric')?.classList.add('journey-emphasis');
+    $('#workspaceStockMetric')?.classList.add('journey-emphasis');
+    await journeyWait(2100,token);
+    $('#workspacePaymentMetric')?.classList.remove('journey-emphasis');
+    $('#workspaceStockMetric')?.classList.remove('journey-emphasis');
+    workspacePrepareDelivery?.classList.add('journey-action-focus');
+    await journeyWait(1400,token);
+    prepareSampleDelivery();
+    workspacePrepareDelivery?.classList.remove('journey-action-focus');
+    await journeyWait(2500,token);
+    announceJourney(i18n[lang]?.journeyFinal||'Your storefront, order and next action stay connected.');
+  };
+
+  const playGuidedJourney=async token=>{
+    try{
+      setChapter('build');
+      await journeyWait(1500,token);
+      await runGuidedEditor(token);
+
+      const sourceProduct=$('.editor-product-card .flat-tee',editor||document);
+      await animateSceneProxy({
+        source:sourceProduct,chapter:'sell',destination:()=>$('.workflow-product',workflowDemo||document),
+        caption:i18n[lang]?.transitionToSell||'Your storefront is ready. Now follow a customer order.',token
+      });
+      await journeyWait(1700,token);
+      await runWorkflow({guided:true,journeyToken:token});
+      await journeyWait(2600,token);
+
+      const sourceOrder=$('#workflowResult');
+      await animateSceneProxy({
+        source:sourceOrder,chapter:'manage',destination:()=>workspaceOrderRow,
+        caption:i18n[lang]?.transitionToManage||'The sale is recorded. Your next action is ready.',token
+      });
+      await runGuidedWorkspace(token);
+      if(token!==journeyState.token)throw JOURNEY_CANCELLED;
+      journeyState.playback='complete';
+      journeyState.mode='guided';
+      updateJourneyPlaybackUI();
+      if(journeyNextDescription)journeyNextDescription.textContent=i18n[lang]?.journeyFinal||'Your storefront, order and next action stay connected.';
+    }catch(error){
+      if(error!==JOURNEY_CANCELLED)console.error(error);
+    }
+  };
+
+  const startGuidedJourney=()=>{
+    if(journeyState.playback==='playing')return pauseJourney('manual');
+    if(journeyState.playback==='paused')return resumeJourney();
+    cancelTransition();cancelWorkflow();
+    if(journeyState.editorDraft)restoreEditorDraft(journeyState.editorDraft);
+    journeyState.editorDraft=captureEditorDraft();
+    journeyState.presentationDraft=captureEditorDraft();
+    journeyState.token+=1;
+    const token=journeyState.token;
+    journeyState.mode='guided';journeyState.playback='playing';journeyState.pauseReason=null;
+    resetWorkflowVisual({resetOrder:true});
+    clearGuidedEditorEffects();
+    updateJourneyPlaybackUI();
+    playGuidedJourney(token);
+  };
+
+  const enterManualMode=({chapter=journeyState.chapter,restoreDraft=true}={})=>{
+    const wasGuided=journeyState.mode==='guided';
+    cancelGuidedJourney({restoreDraft:wasGuided&&restoreDraft,keepPlayback:'idle'});
+    if(chapter==='manage'&&sampleOrder.orderStatus!=='ready')ensureOrderReady();
+    setChapter(chapter);
+    updateJourneyPlaybackUI();
+  };
+
+  journeyChapters.forEach((btn,index)=>{
+    btn.addEventListener('click',()=>enterManualMode({chapter:btn.dataset.journeyChapter}));
+    btn.addEventListener('keydown',e=>{
+      let next=index;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown')next=(index+1)%journeyChapters.length;
+      else if(e.key==='ArrowLeft'||e.key==='ArrowUp')next=(index-1+journeyChapters.length)%journeyChapters.length;
+      else if(e.key==='Home')next=0;
+      else if(e.key==='End')next=journeyChapters.length-1;
+      else return;
+      e.preventDefault();journeyChapters[next].focus();enterManualMode({chapter:journeyChapters[next].dataset.journeyChapter});
+    });
+  });
+  journeyPlay?.addEventListener('click',startGuidedJourney);
+  journeyManual?.addEventListener('click',()=>enterManualMode({chapter:'build'}));
+  journeyBack?.addEventListener('click',()=>{
+    const i=journeyOrder.indexOf(journeyState.chapter);if(i>0)enterManualMode({chapter:journeyOrder[i-1]});
+  });
+  journeyNext?.addEventListener('click',()=>{
+    const i=journeyOrder.indexOf(journeyState.chapter);
+    if(i<2)return enterManualMode({chapter:journeyOrder[i+1],restoreDraft:true});
+    const signup=$('#closingSignup')?.href||$('.nav-cta')?.href||'https://ezcomo.shop/signup?template=fashion';
+    location.href=signup;
+  });
+
+  // Any direct scene interaction owns the experience from that point forward.
+  const interruptForManual=e=>{
+    if(journeyState.mode!=='guided')return;
+    if(e.target.closest('#journeyPlay,#journeyManual,.journey-chapter,.journey-controls'))return;
+    enterManualMode({chapter:journeyState.chapter,restoreDraft:true});
+  };
+  journeyStage?.addEventListener('pointerdown',interruptForManual,true);
+  journeyStage?.addEventListener('keydown',e=>{
+    if((e.key==='Enter'||e.key===' ')&&journeyState.mode==='guided')interruptForManual(e);
+  },true);
+  journeyStage?.addEventListener('focusin',e=>{
+    if(journeyState.mode==='guided'&&e.target.matches('input,[contenteditable="plaintext-only"],button'))interruptForManual(e);
+  },true);
+
+  // Explicit pauses for hidden document / leaving the walkthrough. Never auto-resume.
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseJourney('hidden')});
+  if(journeyShell&&'IntersectionObserver' in window){
+    const journeyVisibility=new IntersectionObserver(entries=>{
+      if(!entries.some(e=>e.isIntersecting))pauseJourney('viewport');
+    },{threshold:.05});
+    journeyVisibility.observe(journeyShell);
   }
+  addEventListener('resize',()=>{if(journeyState.transitionAnimation){journeyState.transitionAnimation.cancel();journeyState.transitionProxy?.remove();journeyState.transitionAnimation=null;journeyState.transitionProxy=null;}},{passive:true});
+
   window.__syncWorkflowLanguage=()=>{
     if(workflowRunning)setWorkflowStatus('workflowRunning');
     else if(workflowDemo?.classList.contains('finished'))setWorkflowStatus('workflowComplete');
     else setWorkflowStatus('workflowWaiting');
-    syncWorkflowNow();
-    syncWorkspaceSnapshot();
+    syncWorkflowNow();syncWorkspace();
   };
-  resetWorkflow();
+  window.__syncJourneyLanguage=()=>{
+    updateJourneyPlaybackUI();setChapter(journeyState.chapter,{announce:false});syncWorkflowNow();syncWorkspace();
+  };
+
+  resetWorkflowVisual({resetOrder:true});
+  setChapter('build',{announce:false});
+  updateJourneyPlaybackUI();
 
   const revealItems=$$('.reveal').filter(el=>!el.classList.contains('is-visible'));
   if('IntersectionObserver' in window){
