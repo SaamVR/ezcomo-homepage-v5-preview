@@ -1433,3 +1433,27 @@ body:has(.journey-shell:hover) .sticky-cta.visible{opacity:0;pointer-events:none
   .journey-scene-active,.guided-product-focus,.handoff-arrived,.journey-emphasis{animation:none!important}
   .journey-chapter,.journey-action-focus{transition:none!important}
 }
+
+/* --- V10.1 manage contrast + stage clearance --- */
+/* Keep the operational workspace legible even when the surrounding marketing site is dark. */
+.journey-shell .workspace-story{
+  --bg:#eef2ee;--surface:#ffffff;--surface-2:#e6ece7;--ink:#18221e;--muted:#53645b;--line:#cbd6ce;
+  --accent:#788379;--accent-strong:#33483d;--accent-deep:#173f32;
+  background:#f5f7f5!important;color:#18221e!important;border-color:#cbd6ce!important;
+}
+.journey-shell .workspace-story .story-card-head{background:#f5f7f5!important;color:#18221e!important}
+.journey-shell .workspace-story .story-card-head p{color:#53645b!important}
+.journey-shell .workspace-story .story-card-note{background:#eef2ee!important;color:#53645b!important;border-color:#cbd6ce!important}
+.journey-shell .workspace-demo{background:#eef2ee!important;border-color:#cbd6ce!important}
+.journey-shell .workspace-main{background:#eef2ee!important;color:#18221e!important}
+.journey-shell .workspace-metrics article,.journey-shell .workspace-orders,.journey-shell .workspace-next,.journey-shell .workspace-order-detail>div{background:#ffffff!important;color:#18221e!important;border-color:#cbd6ce!important}
+.journey-shell .workspace-order-row{background:#f7f9f7!important;color:#18221e!important;border-color:#cbd6ce!important}
+.journey-shell .workspace-order-row.open{border-color:#668271!important;box-shadow:0 0 0 3px rgba(51,72,61,.09)!important}
+.journey-shell .workspace-metrics span,.journey-shell .workspace-metrics small,.journey-shell .workspace-title span,.journey-shell .workspace-order-row span small,.journey-shell .workspace-order-detail span,.journey-shell .workspace-order-detail small,.journey-shell .workspace-next>small{color:#53645b!important}
+.journey-shell .workspace-next-primary{background:#eef2ee!important;color:#18221e!important}
+.journey-shell .workspace-top button{background:#173f32!important;color:#ffffff!important}
+.journey-shell .workspace-prepare{background:#ac432c!important;color:#ffffff!important}
+.journey-shell .workspace-nav{background:#0d241b!important;color:#afbeb4!important}.journey-shell .workspace-nav span.active{background:#173f32!important;color:#d9eee1!important}
+.journey-shell .workspace-nav>b{background:#8ee8b9!important;color:#07110e!important}
+.journey-shell{scroll-margin-top:88px}
+@media(max-width:700px){.journey-shell{scroll-margin-top:72px}}
