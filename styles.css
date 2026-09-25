@@ -1296,15 +1296,19 @@ html[data-theme="dark"] body.v6-mature .pricing-compare article .btn.btn-ghost{
 }
 @media(max-width:700px){
   .scrolling-chapters{padding-block:56px}
-  .product-chapter-nav{position:relative;top:auto;grid-template-columns:1fr;gap:5px;padding:6px;margin-bottom:12px}
-  .chapter-link{min-height:54px}
-  .product-chapter{scroll-margin-top:88px;padding:44px 0 54px}
+  .product-chapter-nav{position:sticky;top:92px;z-index:24;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:5px;margin:0 0 12px;border-radius:12px}
+  .chapter-link{display:flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:8px 6px;text-align:center}
+  .chapter-link>span{grid-row:auto;font-size:9px}
+  .chapter-link b{font-size:12px;line-height:1.1}
+  .chapter-link small{display:none}
+  .product-chapter{scroll-margin-top:160px;padding:44px 0 54px}
   .chapter-heading{grid-template-columns:44px minmax(0,1fr);gap:12px}
   .chapter-heading>span{width:40px;height:40px}.chapter-heading h3{font-size:32px}
   .chapter-heading p:last-child{font-size:14px}
   .chapter-next{align-items:stretch;flex-direction:column}.chapter-next a{width:100%;min-height:48px}
   .chapter-build .editor-demo.builder-ui{grid-template-rows:42px 54px 560px auto}.chapter-build .editor-canvas{height:540px}
   .chapter-sell .workflow-demo{min-height:0}
+  .chapter-sell .workflow-step:not(.active):not(.done){opacity:.62}
   .workspace-order-detail{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){
@@ -1332,4 +1336,4 @@ html[data-theme="dark"] body.v6-mature .pricing-compare article .btn.btn-ghost{
 .chapter-manage .workspace-nav{background:#0d241b!important;color:#afbeb4!important}.chapter-manage .workspace-nav span.active{background:#173f32!important;color:#d9eee1!important}
 .chapter-manage .workspace-nav>b{background:#8ee8b9!important;color:#07110e!important}
 .product-chapter{scroll-margin-top:170px}
-@media(max-width:700px){.product-chapter{scroll-margin-top:88px}}
+@media(max-width:700px){.product-chapter{scroll-margin-top:160px}}
